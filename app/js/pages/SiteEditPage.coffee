@@ -31,7 +31,7 @@ module.exports = class SiteEditPage extends Page
         location: { value: site.location }
       })
 
-      siteQuestions = commonUI.createBasicSiteQuestions(@siteModel, @ctx)
+      siteQuestions = commonUI.createBasicSiteQuestions(@siteModel, @ctx, null, false)
       @siteQuestionsGroup = new forms.QuestionGroup(contents: siteQuestions)
 
       @$("#site_questions").append(@siteQuestionsGroup.el)

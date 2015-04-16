@@ -38,7 +38,7 @@ module.exports = class NewSitePage extends Page
     if _.any(@login.groups, (g) -> g.match(/wateraid/i))
       @siteModel.set("privacy", { value: "private" })
 
-    siteQuestions = commonUI.createBasicSiteQuestions(@siteModel, @ctx, @options.filterSiteTypes)
+    siteQuestions = commonUI.createBasicSiteQuestions(@siteModel, @ctx, @options.filterSiteTypes, true)
 
     siteQuestions.push new forms.RadioQuestion
       id: 'privacy'
