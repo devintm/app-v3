@@ -57,7 +57,7 @@
     "lodash": "^3.2.0",
     "minimongo": "^3.0.0",
     "mwater-common": "^1.1.0",
-    "mwater-forms": "git+https://github.com/mWater/mwater-forms.git#v4",
+    "mwater-forms": "git+https://github.com/mWater/mwater-forms.git",
     "offline-leaflet-map": "^0.1.0",
     "parse-appcache-manifest": "~0.2.0",
     "uuid": "~2.0.1"
