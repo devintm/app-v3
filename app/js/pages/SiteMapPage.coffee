@@ -55,6 +55,14 @@ class SiteMapPage extends Page
       @createMap(L.GeoJSON.coordsToLatLng(@options.initialGeo.coordinates), 15)
       return
 
+    # TODO Remove this eventually. Hack for charity: water
+    # If groups include "charity water Ethiopia", cache their sites
+    if @login and "charity water Ethiopia" in @login.groups
+      @db.sites.find({ "created.for": "charity water Ethiopia" }).fetch (sites) =>
+        # Just cache them
+        return
+      , @error
+
     # Get current position
     currentLatLng = null
     locationFinder = new LocationFinder({storage: @storage})
