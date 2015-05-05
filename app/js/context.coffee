@@ -44,7 +44,7 @@ ImageUploader = require './images/ImageUploader'
 ProblemReporter = require './ProblemReporter'
 storageUtils = require './storage'
 
-collectionNames = ['sites', 'forms', 'groups', 'responses', 'tests', 'source_notes', 'sensors', 'sensor_data']
+collectionNames = ['sites', 'forms', 'groups', 'group_members', 'responses', 'tests', 'source_notes', 'sensors', 'sensor_data']
 
 # Gets a query parameter from the query string of the current page
 getQueryParameterByName = (name) ->
