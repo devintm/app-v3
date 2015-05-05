@@ -14,29 +14,41 @@ module.exports = class GroupListPage extends Page
 
   render: ->
     # Query list of groups
-    @db.groups.find({ members: @login.user }, { }).fetch (groups) =>
+    @db.groups.find({ member: true}, {interim: false}).fetch (groups) =>
       @groups = groups
 
       # Display list
-      @$el.html require('./GroupListPage.hbs')(groups: groups)  
+      @$el.html require('./GroupListPage.hbs')(groups: groups)
     , @error
 
 
   leaveClicked: (ev) ->
-    groupname = $(ev.currentTarget).data("id")
-
-    if not confirm(T("Leave the group '{0}'? Only a group admin can re-add you.", groupname))
-      return
+    groupId = $(ev.currentTarget).data("id")
+    console.log groupId
 
     # Find group
-    group = _.findWhere(@groups, { groupname: groupname })
+    group = _.findWhere(@groups, { _id: groupId })
 
-    # Remove member
-    group.members = _.without(group.members, @login.user)
+    if group.admin
+      @db.group_members.find({ group: group.groupname, admin: true }, {interim: false}).fetch (adminGroupMembers) =>
+        if adminGroupMembers.length <= 1
+          alert("You can't leave that group since you are its only admin.")
+          return
+        @leaveGroup(group)
+    else
+      @leaveGroup(group)
 
-    # Upsert group
-    @db.groups.upsert group, () =>
-      if @updateGroupsList
-        @updateGroupsList()
-      @render()
-    , @error
+  leaveGroup: (group) ->
+    if not confirm(T("Leave the group '{0}'? Only a group admin can re-add you.", group.groupname))
+      return
+
+    @db.group_members.find({ group: group.groupname, member: "user:" + @login.user}, {interim: false}).fetch((groupMembers) =>
+      if groupMembers.length == 1
+        @db.remoteDb.group_members.remove(groupMembers[0]._id, () =>
+          if @updateGroupsList
+            @updateGroupsList()
+          @render()
+        , @error)
+    , @error)
+
+
