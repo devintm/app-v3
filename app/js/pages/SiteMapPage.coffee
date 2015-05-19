@@ -63,6 +63,13 @@ class SiteMapPage extends Page
         return
       , @error
 
+    # If groups include "charity water Malawi", cache their sites
+    if @login and "charity water Malawi" in @login.groups
+      @db.sites.find({ "created.for": "charity water Malawi" }).fetch (sites) =>
+        # Just cache them
+        return
+      , @error
+
     # Get current position
     currentLatLng = null
     locationFinder = new LocationFinder({storage: @storage})
