@@ -11,6 +11,10 @@
     {
       "code": "sw",
       "name": "Kiswahili"
+    },
+    {
+      "code": "tet",
+      "name": "Tetun"
     }
   ],
   "strings": [
@@ -19,2199 +23,2523 @@
       "es": "Comenzar Prueba de Agua",
       "sw": "Anzisha Testi ya Maji",
       "_base": "en",
-      "fr": "Commencer le test de l'eau"
+      "fr": "Commencer le test de l'eau",
+      "tet": "Komesa Teste Bee"
     },
     {
       "en": "Start Survey",
       "es": "Comenzar Tasación",
       "sw": "Anzisha Fomu ya Utafiti",
       "_base": "en",
-      "fr": "Commencer l'enquête"
+      "fr": "Commencer l'enquête",
+      "tet": "Komesa Survey"
     },
     {
       "en": "User:",
       "es": "Usario:",
       "sw": "Mtumiaji",
       "_base": "en",
-      "fr": "Utilisateur :"
+      "fr": "Utilisateur :",
+      "tet": "Utilizador"
     },
     {
       "en": "Sync:",
       "es": "Sincronizar:",
       "sw": "Landanisha:",
       "_base": "en",
-      "fr": "Sync :"
+      "fr": "Sync :",
+      "tet": "Sinkroniza"
     },
     {
       "en": "Version:",
       "es": "Version:",
       "sw": "Toleo",
       "_base": "en",
-      "fr": "Version :"
+      "fr": "Version :",
+      "tet": "Versaun"
     },
     {
       "en": "Language:",
       "es": "Idioma:",
       "sw": "Lugha",
       "_base": "en",
-      "fr": "Langue :"
+      "fr": "Langue :",
+      "tet": "Lingua"
     },
     {
       "en": "Advanced",
       "es": "Avanzado",
       "sw": "Muendelezo",
       "_base": "en",
-      "fr": "Avancé"
+      "fr": "Avancé",
+      "tet": "Avansadu"
     },
     {
       "en": "This will completely reset any cached data and cause you to lose any pending changes that you have not uploaded",
       "es": "Esto completamente restablecerá los datos almacenados en memoria caché y hacerle perder cualquier cambio pendiente que no haya subido",
       "sw": "Hii itafuta kabisa data zozote zilizotunzwa katika kumbukumbu na kusababisha upoteze mabadiliko yoyote yanayosubiri kuhamishwa",
       "_base": "en",
-      "fr": "Cela réinitialisera entièrement n'importe quelles données mises en cache et vous fera perdre n'importe quels changements en attente que vous n'avez pas téléchargés en upload"
+      "fr": "Cela réinitialisera entièrement n'importe quelles données mises en cache et vous fera perdre n'importe quels changements en attente que vous n'avez pas téléchargés en upload",
+      "tet": "Ida ne'e kompletamente monta fali fatin ba dadus no kauza ba halakon pendente sira ne'ebe ita seidauk hatama. "
     },
     {
       "en": "N",
       "es": "Norte",
       "sw": "Kaskazini",
       "_base": "en",
-      "fr": "Nord"
+      "fr": "Nord",
+      "tet": "Norte"
     },
     {
       "en": "NE",
       "es": "Noreste",
       "sw": "Kaskazini Mashariki",
       "_base": "en",
-      "fr": "Nord-Est"
+      "fr": "Nord-Est",
+      "tet": "Leste Norte"
     },
     {
       "en": "E",
       "es": "Este",
       "sw": "Mashariki",
       "_base": "en",
-      "fr": "Est"
+      "fr": "Est",
+      "tet": "Leste"
     },
     {
       "en": "SE",
       "es": "Sureste",
       "sw": "Kusini Mashariki",
       "_base": "en",
-      "fr": "Sud-Est"
+      "fr": "Sud-Est",
+      "tet": "Leste Sul"
     },
     {
       "en": "S",
       "es": "Sur",
       "sw": "Kusini",
       "_base": "en",
-      "fr": "Sud"
+      "fr": "Sud",
+      "tet": "Sul"
     },
     {
       "en": "SW",
       "es": "Suroeste",
       "sw": "Kusini Magharibi",
       "_base": "en",
-      "fr": "Sud-Ouest"
+      "fr": "Sud-Ouest",
+      "tet": "Oeste Sul"
     },
     {
       "en": "W",
       "es": "Oeste",
       "sw": "Magharibi",
       "_base": "en",
-      "fr": "Ouest"
+      "fr": "Ouest",
+      "tet": "Oeste"
     },
     {
       "en": "NW",
       "es": "Noroeste",
       "sw": "Kaskazini Magharibi",
       "_base": "en",
-      "fr": "Nord-Ouest"
+      "fr": "Nord-Ouest",
+      "tet": "Oeste Norte"
     },
     {
       "en": "Unspecified location",
       "es": "ubicación no especificada",
       "sw": "Mahali pasipojulikana",
       "_base": "en",
-      "fr": "Emplacement non spécifié"
+      "fr": "Emplacement non spécifié",
+      "tet": "La iha fatin spesifiku"
     },
     {
       "en": "Setting location...",
       "es": "Configurando ubicación...",
       "sw": "Inaweka mahali...",
       "_base": "en",
-      "fr": "Configure l'emplacement"
+      "fr": "Configure l'emplacement",
+      "tet": "hili fatin"
     },
     {
       "en": "Waiting for GPS...",
       "es": "Esperando el GPS...",
       "sw": "Inasubiria GPS...",
       "_base": "en",
-      "fr": "Attend le GPS..."
+      "fr": "Attend le GPS...",
+      "tet": "Hein GPS"
     },
     {
       "en": "Internal Error",
       "es": "Error Interno",
       "sw": "Hitilafu ya Ndani",
       "_base": "en",
-      "fr": "Erreur Interne"
+      "fr": "Erreur Interne",
+      "tet": "Erru Internal "
     },
     {
       "en": "Internal error",
       "es": "Error Interno",
       "sw": "Hitilafu ya ndani",
       "_base": "en",
-      "fr": "Erreur interne"
+      "fr": "Erreur interne",
+      "tet": "Erru Internal "
     },
     {
       "en": "Failed to take picture",
       "es": "No se pudo tomar foto",
       "sw": "Imeshindikana kupiga picha",
       "_base": "en",
-      "fr": "N'a pas réussi à prendre une photo"
+      "fr": "N'a pas réussi à prendre une photo",
+      "tet": "Falla hasai foto"
     },
     {
       "en": "A new version is available. Restart app?",
       "es": "Está disponible una nueva versión. Reiniciar la aplicación?",
       "sw": "Toleo jipya linapatikana. Anzisha upya programu?",
       "_base": "en",
-      "fr": "Une nouvelle version est disponible Redémarrer l'application ?"
+      "fr": "Une nouvelle version est disponible Redémarrer l'application ?",
+      "tet": "iha versaun foun. Hahu app?"
     },
     {
       "en": "Loading mWater...",
       "es": "Cargando mWater...",
       "sw": "mWater inafunguka...",
       "_base": "en",
-      "fr": "Charge mWater..."
+      "fr": "Charge mWater...",
+      "tet": "Prosesu mWater…"
     },
     {
       "en": "Images not available",
       "es": "Imagenes no disponibles",
       "sw": "Picha hazipatikani",
       "_base": "en",
-      "fr": "Images non disponibles"
+      "fr": "Images non disponibles",
+      "tet": "Imajen la iha"
     },
     {
       "en": "Save",
       "es": "Guardar",
       "sw": "Hifadhi",
       "_base": "en",
-      "fr": "Sauvegarder"
+      "fr": "Sauvegarder",
+      "tet": "Rai  "
     },
     {
       "en": "Cancel",
       "es": "Cancelar",
       "sw": "Sitisha",
       "_base": "en",
-      "fr": "Annuler"
+      "fr": "Annuler",
+      "tet": "kansela"
     },
     {
       "en": "Discard",
       "es": "Desechar",
       "sw": "Ondoa",
       "_base": "en",
-      "fr": "Rejeter"
+      "fr": "Rejeter",
+      "tet": "La uza"
     },
     {
       "en": "Save for Later",
       "es": "Guardar para luego",
       "sw": "Hifadhi kwa ajili ya baadaye",
       "_base": "en",
-      "fr": "Sauvegarder pour plus tard"
+      "fr": "Sauvegarder pour plus tard",
+      "tet": "Rai depois uza"
     },
     {
       "en": "Complete",
       "es": "Completar",
       "sw": "Kamilisha",
       "_base": "en",
-      "fr": "Terminer"
+      "fr": "Terminer",
+      "tet": "Kompleta"
     },
     {
       "en": "Image must be a jpeg file",
       "es": "Imagen tiene que ser un archivo jpeg",
       "sw": "Muundo wa picha lazima uwe ni jpeg",
       "_base": "en",
-      "fr": "L'image doit être un fichier jpeg"
+      "fr": "L'image doit être un fichier jpeg",
+      "tet": "Imajen presiza iha JPEG"
     },
     {
       "en": "Upload failed: {0}",
       "es": "No se pudo cargar: {0}",
       "sw": "Imeshindwa kupakia: {0}",
       "_base": "en",
-      "fr": "Échec du téléchargement en upload {0}"
+      "fr": "Échec du téléchargement en upload {0}",
+      "tet": "La karregar"
     },
     {
       "en": "Error uploading file",
       "es": "Error al cargar el archivo",
       "sw": "Hitilafu katika kupakia faili",
       "_base": "en",
-      "fr": "Erreur lors du téléchargement en upload"
+      "fr": "Erreur lors du téléchargement en upload",
+      "tet": "Erru"
     },
     {
       "en": "Upload cancelled",
       "es": "Carga cancelada",
       "sw": "kupakia data kumesitishwa",
       "_base": "en",
-      "fr": "Téléchargement en upload effacé"
+      "fr": "Téléchargement en upload effacé",
+      "tet": "Kansela karregar"
     },
     {
       "en": "Name",
       "es": "Nombre",
       "sw": "Jina",
       "_base": "en",
-      "fr": "Nom"
+      "fr": "Nom",
+      "tet": "Naran"
     },
     {
       "en": "Open",
       "es": "Abierto",
       "sw": "Fungua",
       "_base": "en",
-      "fr": "Ouvert"
+      "fr": "Ouvert",
+      "tet": "Loke"
     },
     {
       "en": "Select Survey",
       "es": "Seleccione encuesta",
       "sw": "Chagua Fomu ya Utafiti",
       "_base": "en",
-      "fr": "Sélectionner une enquête"
+      "fr": "Sélectionner une enquête",
+      "tet": "Selekta Survey"
     },
     {
       "en": "Image",
       "es": "Imagen",
       "sw": "Picha",
       "_base": "en",
-      "fr": "Image"
+      "fr": "Image",
+      "tet": "Imajen"
     },
     {
       "en": "Remove image?",
       "es": "Quitar Imagen?",
       "sw": "Ondoa picha?",
       "_base": "en",
-      "fr": "Enlever l'image ?"
+      "fr": "Enlever l'image ?",
+      "tet": "Hamos imajen?"
     },
     {
       "en": "Login as {0} successful",
       "es": "Iniciar sesión como {0} exitoso ",
       "sw": "Umefanikiwa kuingia kama {0}",
       "_base": "en",
-      "fr": "Connexion en tant que {0} réussie"
+      "fr": "Connexion en tant que {0} réussie",
+      "tet": "Tama iha {0} susesu"
     },
     {
       "en": "Running in Demo mode. No changes will be saved",
       "es": "Ejecutando en modo de demostración. Los cambios no se guardarán",
       "sw": "Inafanya kazi kama modeli ya demo. Mabadiliko yoyote hayatahifadhiwa",
       "_base": "en",
-      "fr": "Fonctionne en mode démo Aucun changement ne sera sauvegardé"
+      "fr": "Fonctionne en mode démo Aucun changement ne sera sauvegardé",
+      "tet": "halao demonstrasaun modu. La iha mudansa sei rai"
     },
     {
       "en": "Zoom in to see more",
       "es": "Zoom para ver más",
       "sw": "Kuza ili kuona zaidi",
       "_base": "en",
-      "fr": "Zoom avant pour voir davantage"
+      "fr": "Zoom avant pour voir davantage",
+      "tet": "Bele hare kle'an liu"
     },
     {
       "en": "Enter optional name",
       "es": "Introduzca nombre opcional",
       "sw": "Jaza jina la hiari",
       "_base": "en",
-      "fr": "Entrer un nom optionnel"
+      "fr": "Entrer un nom optionnel",
+      "tet": "hatama naran opsional"
     },
     {
       "en": "Enter optional description",
       "es": "Introduzca una descripción opcional",
       "sw": "Jaza maelezo ya hiari",
       "_base": "en",
-      "fr": "Entrer une description optionnelle"
+      "fr": "Entrer une description optionnelle",
+      "tet": "hatama naran diskrisaun"
     },
     {
       "en": "Form not found",
       "es": "Forma no encontrada",
       "sw": "Fomu haipatikani",
       "_base": "en",
-      "fr": "Formulaire impossible à trouver"
+      "fr": "Formulaire impossible à trouver",
+      "tet": "Formulariu la hetan"
     },
     {
       "en": "Select Test",
       "es": "Elegir Prueba",
       "sw": "Chagua Testi",
       "_base": "en",
-      "fr": "Sélectionnez un test"
+      "fr": "Sélectionnez un test",
+      "tet": "prova selesaun"
     },
     {
       "en": "Report Problem",
       "es": "Reportar Problema",
       "sw": "Ripoti Tatizo",
       "_base": "en",
-      "fr": "Signaler un problème"
+      "fr": "Signaler un problème",
+      "tet": "Relata problema"
     },
     {
       "en": "Enter username",
       "es": "Introduzca el nombre de usuario",
       "sw": "Andika jina la mtumiaji",
       "_base": "en",
-      "fr": "Entrer un nom d'utilisateur"
+      "fr": "Entrer un nom d'utilisateur",
+      "tet": "hatama naran"
     },
     {
       "en": "Enter email address",
       "es": "Introducir dirección de correo electrónico",
       "sw": "Andika anwani yako ya barua pepe",
       "_base": "en",
-      "fr": "Entrer une adresse électronique"
+      "fr": "Entrer une adresse électronique",
+      "tet": "hatama dirasaun email"
     },
     {
       "en": "Describe the problem",
       "es": "Describir el Problema",
       "sw": "Elezea tatizo",
       "_base": "en",
-      "fr": "Décrire le problème"
+      "fr": "Décrire le problème",
+      "tet": "deskrebe problema"
     },
     {
       "en": "Report sent",
       "es": "Reportaje mandado",
       "sw": "Ripoti imetumwa",
       "_base": "en",
-      "fr": "Rapport envoyé"
+      "fr": "Rapport envoyé",
+      "tet": "relatoriu haruka ona "
     },
     {
       "en": "Debugging with code <b>{0}</b>",
       "es": "Depuración de código <b>{0}</b>",
       "sw": "Chambua kwa kutumia kanuni <b>{0}</b>",
       "_base": "en",
-      "fr": "Débogage avec le code <b>{0}</b>"
+      "fr": "Débogage avec le code <b>{0}</b>",
+      "tet": "atu hadi'a ho kode <b>{0}</b>"
     },
     {
       "en": "Completely discard local data, logout and lose unsubmitted changes?",
       "es": "Totalmente descartar datos locales, logout y perderá los cambios inéditos?",
       "sw": "Ondoa kabisa data za ndani, toka na poteza mabadiliko ambayo hayajawasilishwa?",
       "_base": "en",
-      "fr": "Enlever entièrement les données locales, se déconnecter et perdre les changements non soumis ?"
+      "fr": "Enlever entièrement les données locales, se déconnecter et perdre les changements non soumis ?",
+      "tet": "kompletamente hasai dadus lokal no lakon mudansa mak la submete?"
     },
     {
       "en": "Error",
       "es": "Error",
       "sw": "Hitilafu",
       "_base": "en",
-      "fr": "Erreur"
+      "fr": "Erreur",
+      "tet": "Erru"
     },
     {
       "en": "E.Coli",
       "es": "E.Coli",
       "sw": "E.Coli",
       "_base": "en",
-      "fr": "E. Coli"
+      "fr": "E. Coli",
+      "tet": "E.Coli"
     },
     {
       "en": "Algorithm",
       "es": "Algoritmo",
       "sw": "Algorithm",
       "_base": "en",
-      "fr": "Algorithme"
+      "fr": "Algorithme",
+      "tet": "algoritma "
     },
     {
       "en": "Username required",
       "es": "Nombre de usuario requerido",
       "sw": "Weka jina la mtumiaji",
       "_base": "en",
-      "fr": "Nom d'utilisateur requis"
+      "fr": "Nom d'utilisateur requis",
+      "tet": "Presiza naran uza"
     },
     {
       "en": "Password of at least 5 characters required",
       "es": "Contraseña de al menos 5 caracteres requerida",
       "sw": "Weka neno la siri lisilo chini ya herufi 5",
       "_base": "en",
-      "fr": "Mot de passe d'au moins 5 caractères requis"
+      "fr": "Mot de passe d'au moins 5 caractères requis",
+      "tet": "Password minimu karakter 5 mak presiza"
     },
     {
       "en": "Email required",
       "es": "Correo electrónico obligatorio",
       "sw": "Weka barua pepe",
       "_base": "en",
-      "fr": "Adresse électronique requise"
+      "fr": "Adresse électronique requise",
+      "tet": "presiza email"
     },
     {
       "en": "Unable to signup. Please check that you are connected to Internet",
       "es": "No puede registrarse. Por favor, compruebe que está conectado a Internet",
       "sw": "Imeshindikana kusajili. Tafadhali hakikisha umeunganishwa na Intaneti",
       "_base": "en",
-      "fr": "N'est pas en mesure de s'inscrire Veuillez SVP vérifier que vous êtes connecté à internet"
+      "fr": "N'est pas en mesure de s'inscrire Veuillez SVP vérifier que vous êtes connecté à internet",
+      "tet": "Labele rejistu. Favor ida katak ita boot liga ba internet"
     },
     {
       "en": "Unable to determine location",
       "es": "Incapaz de determinar la ubicación",
       "sw": "Inashindikana kutambua mahali",
       "_base": "en",
-      "fr": "Ne peut déterminer l'emplacement"
+      "fr": "Ne peut déterminer l'emplacement",
+      "tet": "Labele determina fatin "
     },
     {
       "en": "Only Mine",
       "es": "Solo el Mio",
       "sw": "Yangu Pekee",
       "_base": "en",
-      "fr": "Seulement le mien"
+      "fr": "Seulement le mien",
+      "tet": "so ha'u de'it. "
     },
     {
       "en": "Date of Visit",
       "es": "Feche de Visita",
       "sw": "Siku ya Ziara",
       "_base": "en",
-      "fr": "Date de la visite"
+      "fr": "Date de la visite",
+      "tet": "data visita"
     },
     {
       "en": "Functional",
       "es": "Funcional",
       "sw": "Kinafanya kazi",
       "_base": "en",
-      "fr": "Fonctionnel"
+      "fr": "Fonctionnel",
+      "tet": "funsionamentu"
     },
     {
       "en": "Needs maintenance",
       "es": "Necesita mantenimiento",
       "sw": "Kinahitaji matengenezo",
       "_base": "en",
-      "fr": "A besoin d'entretien"
+      "fr": "A besoin d'entretien",
+      "tet": "presiza manutensaun"
     },
     {
       "en": "Non-functional",
       "es": "No funcional",
       "sw": "Hakifanyi kazi",
       "_base": "en",
-      "fr": "Pas fonctionnel"
+      "fr": "Pas fonctionnel",
+      "tet": "naun-funsionamentu"
     },
     {
       "en": "No longer exists",
       "es": "Ya no existe",
       "sw": "Haipo tena",
       "_base": "en",
-      "fr": "N'existe plus"
+      "fr": "N'existe plus",
+      "tet": "la ezizte kleur"
     },
     {
       "en": "Notes",
       "es": "Notas",
       "sw": "Maelezo",
       "_base": "en",
-      "fr": "Notes"
+      "fr": "Notes",
+      "tet": "Nota"
     },
     {
       "en": "Survey",
       "es": "Encuesta",
       "sw": "Fomu ya Utafiti",
       "_base": "en",
-      "fr": "Enquête"
+      "fr": "Enquête",
+      "tet": "Survei"
     },
     {
       "en": "Test not found",
       "es": "Prueba no encontrada",
       "sw": "Testi haipatikani",
       "_base": "en",
-      "fr": "Test impossible à trouver"
+      "fr": "Test impossible à trouver",
+      "tet": "La hetan teste"
     },
     {
       "en": "Delete Survey",
       "es": "Eliminar Encuesta",
       "sw": "Futa Fomu ya Utafiti",
       "_base": "en",
-      "fr": "Effacer l'enquête"
+      "fr": "Effacer l'enquête",
+      "tet": "hamos survei"
     },
     {
       "en": "Survey saved as draft.",
       "es": "Encuesta guardada como borrador",
       "sw": "Fomu ya Utafiti imehifadhiwa kama rasimu",
       "_base": "en",
-      "fr": "Enquête sauvegardée comme projet"
+      "fr": "Enquête sauvegardée comme projet",
+      "tet": "survei rai hanesan ezbosu"
     },
     {
       "en": "Survey completed successfully",
       "es": "Encuesta completada con éxito",
       "sw": "Fomu ya Utafiti imekamilika kwa mafanikio",
       "_base": "en",
-      "fr": "Enquête terminée avec succès"
+      "fr": "Enquête terminée avec succès",
+      "tet": "survei kompletu ho susesu"
     },
     {
       "en": "Permanently delete survey?",
       "es": "Eliminar encuesta permanentemente?",
       "sw": "Futa Fomu ya Utafiti kwa kudumu?",
       "_base": "en",
-      "fr": "Effacer l'enquête de façon permanente ?"
+      "fr": "Effacer l'enquête de façon permanente ?",
+      "tet": "hamos survei permanente"
     },
     {
       "en": "Survey deleted",
       "es": "Encuesta eliminada",
       "sw": "Fomu ya Utafiti imefutwa",
       "_base": "en",
-      "fr": "Enquête effacée"
+      "fr": "Enquête effacée",
+      "tet": "survei hamoos tiha ona"
     },
     {
       "en": "Recent Tests",
       "es": "Pruebas recientes",
       "sw": "Testi za karibuni",
       "_base": "en",
-      "fr": "Tests récents"
+      "fr": "Tests récents",
+      "tet": "teste foin daudauk"
     },
     {
       "en": "Water Test",
       "es": "Prueba de Agua",
       "sw": "Testi ya Maji",
       "_base": "en",
-      "fr": "Test de l'eau"
+      "fr": "Test de l'eau",
+      "tet": "teste bee"
     },
     {
       "en": "Delete Test",
       "es": "Eliminar Prueba",
       "sw": "Futa Testi",
       "_base": "en",
-      "fr": "Effacer le test"
+      "fr": "Effacer le test",
+      "tet": "teste hamos"
     },
     {
       "en": "Test form {0} not found",
       "es": "Prueba formulario {0} no encontrada",
       "sw": "Fomu ya testi {0} haipatikani",
       "_base": "en",
-      "fr": "Formulaire du test {0} pas trouvé"
+      "fr": "Formulaire du test {0} pas trouvé",
+      "tet": "la hetan teste husi (0)"
     },
     {
       "en": "Test saved as draft.",
       "es": "Prueba guardada como borrador.",
       "sw": "Testi imehifadhiwa kama rasimu.",
       "_base": "en",
-      "fr": "Test sauvegardé comme projet"
+      "fr": "Test sauvegardé comme projet",
+      "tet": "teste rai hanesan ezbosu"
     },
     {
       "en": "Test completed successfully",
       "es": "Prueba completada con exito",
       "sw": "Testi imekamilika kwa mafanikio",
       "_base": "en",
-      "fr": "Test terminé avec succès"
+      "fr": "Test terminé avec succès",
+      "tet": "teste kompletu ho susesu"
     },
     {
       "en": "Permanently delete test?",
       "es": "Eliminar prueba permanentemente?",
       "sw": "Futa testi kwa kudumu?",
       "_base": "en",
-      "fr": "Effacer le test de façon permanente ?"
+      "fr": "Effacer le test de façon permanente ?",
+      "tet": "teste hamoos permanente"
     },
     {
       "en": "Test deleted",
       "es": "Prueba eliminada",
       "sw": "Testi imefutwa",
       "_base": "en",
-      "fr": "Test effacé"
+      "fr": "Test effacé",
+      "tet": "teste hamoos tiha ona"
     },
     {
       "en": "Unable to login. Please check that you are connected to Internet",
       "es": "No se pudo iniciar sesión. Por favor, compruebe que está conectado a Internet",
       "sw": "Imeshindikana kuingia. Tafadhali hakikisha umeunganishwa na Intaneti.",
       "_base": "en",
-      "fr": "Ne peut se connecter Veuillez SVP vérifier que vous êtes connecté à internet"
+      "fr": "Ne peut se connecter Veuillez SVP vérifier que vous êtes connecté à internet",
+      "tet": "la bele tama. Favor check ita boot nia ligasaun husi internet"
     },
     {
       "en": "Latitude",
       "es": "Latitud",
       "sw": "Latitudo",
       "_base": "en",
-      "fr": "Latitude"
+      "fr": "Latitude",
+      "tet": "Latitude"
     },
     {
       "en": "Longitude",
       "es": "Longitud",
       "sw": "Longitudo",
       "_base": "en",
-      "fr": "Longitude"
+      "fr": "Longitude",
+      "tet": "longitude"
     },
     {
       "en": "Home",
       "es": "Página inicial",
       "sw": "Ukurasa wa nyumbani",
       "_base": "en",
-      "fr": "Accueil"
+      "fr": "Accueil",
+      "tet": "uma"
     },
     {
       "en": "Login",
       "es": "Conexión",
       "sw": "Ingia",
       "_base": "en",
-      "fr": "Se connecter"
+      "fr": "Se connecter",
+      "tet": "tama"
     },
     {
       "en": "Settings",
       "es": "Ajustes",
       "sw": "Mipangilio",
       "_base": "en",
-      "fr": "Paramètres"
+      "fr": "Paramètres",
+      "tet": "Monta"
     },
     {
       "en": "Report a Problem",
       "es": "Reportar un Problema",
       "sw": "Ripoti Tatizo",
       "_base": "en",
-      "fr": "Signaler un problème"
+      "fr": "Signaler un problème",
+      "tet": "Relatoriu problema"
     },
     {
       "en": "Logout",
       "es": "Cerrar sesión",
       "sw": "Toka",
       "_base": "en",
-      "fr": "Se déconnecter"
+      "fr": "Se déconnecter",
+      "tet": "sai"
     },
     {
       "en": "Back",
       "es": "Atrás",
       "sw": "Rudi",
       "_base": "en",
-      "fr": "Précédent"
+      "fr": "Précédent",
+      "tet": "fila fali"
     },
     {
       "en": "Next",
       "es": "Siguente",
       "sw": "Inayofuata",
       "_base": "en",
-      "fr": "Suivant"
+      "fr": "Suivant",
+      "tet": "tuir mai"
     },
     {
       "en": "Finish",
       "es": "Terminar",
       "sw": "Hitimisha",
       "_base": "en",
-      "fr": "Terminer"
+      "fr": "Terminer",
+      "tet": "remata"
     },
     {
       "en": "Upload Image",
       "es": "Cargar Imagen",
       "sw": "Pakia Picha",
       "_base": "en",
-      "fr": "Télécharger l'image en upload"
+      "fr": "Télécharger l'image en upload",
+      "tet": "hatama imajen/dezenu"
     },
     {
       "en": "Close",
       "es": "Cerrar",
       "sw": "Funga",
       "_base": "en",
-      "fr": "Fermer"
+      "fr": "Fermer",
+      "tet": "taka"
     },
     {
       "en": "Upload",
       "es": "Subir",
       "sw": "Pakia",
       "_base": "en",
-      "fr": "Télécharger en upload"
+      "fr": "Télécharger en upload",
+      "tet": "Hatama"
     },
     {
       "en": "Incomplete Surveys",
       "es": "Encuestas Incompletadas",
       "sw": "Tafiti ambazo hazijakamilika",
       "_base": "en",
-      "fr": "Enquêtes pas terminées"
+      "fr": "Enquêtes pas terminées",
+      "tet": "survey lakompletu"
     },
     {
       "en": "Recent Completed Surveys",
       "es": "Encuestas Completadas Recientes",
       "sw": "Tafiti zilizokamilika karibuni",
       "_base": "en",
-      "fr": "Enquêtes récemment terminées"
+      "fr": "Enquêtes récemment terminées",
+      "tet": "survey foin kompletu "
     },
     {
       "en": "Loading image",
       "es": "Cargando Imagen",
       "sw": "Inafungua picha",
       "_base": "en",
-      "fr": "Charge une image"
+      "fr": "Charge une image",
+      "tet": "prosesu imajen"
     },
     {
       "en": "Demo",
       "es": "Demo",
       "sw": "Demo",
       "_base": "en",
-      "fr": "Démo"
+      "fr": "Démo",
+      "tet": "demonstrasaun"
     },
     {
       "en": "Try out app",
       "es": "Probar app",
       "sw": "Jaribu programu",
       "_base": "en",
-      "fr": "Essayer l'application"
+      "fr": "Essayer l'application",
+      "tet": "koko app"
     },
     {
       "en": "Login to mWater",
       "es": "Iniciar sesión en mWater",
       "sw": "Ingia mWater",
       "_base": "en",
-      "fr": "Se connecter à mWater"
+      "fr": "Se connecter à mWater",
+      "tet": "tama ba mWater"
     },
     {
       "en": "Username or Email",
       "es": "Nombre de usuario o correo electrónico",
       "sw": "Jina la mtumiaji au Barua pepe",
       "_base": "en",
-      "fr": "Nom d'utilisateur ou adresse électronique"
+      "fr": "Nom d'utilisateur ou adresse électronique",
+      "tet": "Naran Uza ou ka email"
     },
     {
       "en": "Username",
       "es": "Nombre de Usario",
       "sw": "Jina la mtumiaji",
       "_base": "en",
-      "fr": "Nom d'utilisateur"
+      "fr": "Nom d'utilisateur",
+      "tet": "Naran Uza  "
     },
     {
       "en": "Password",
       "es": "Contraseña",
       "sw": "Neno la siri",
       "_base": "en",
-      "fr": "Mot de passe"
+      "fr": "Mot de passe",
+      "tet": "password "
     },
     {
       "en": "or",
       "es": "o",
       "sw": "au",
       "_base": "en",
-      "fr": "ou"
+      "fr": "ou",
+      "tet": "ou"
     },
     {
       "en": "Signup",
       "es": "Registrarse",
       "sw": "Jisajili",
       "_base": "en",
-      "fr": "S'inscrire"
+      "fr": "S'inscrire",
+      "tet": "Rejistu"
     },
     {
       "en": "Select type of test to start",
       "es": "Seleccione el tipo de prueba para comenzar",
       "sw": "Chagua aina ya testi ya kuanza",
       "_base": "en",
-      "fr": "Sélectionner le type de test à commencer"
+      "fr": "Sélectionner le type de test à commencer",
+      "tet": "selekta tipu atu hahu teste"
     },
     {
       "en": "Test EC Compact Dry Plate Counter",
       "es": "Probar Contador Compacto Placa Seca CE",
       "sw": "Jaribu kaunta ya EC Compact Dry Plate",
       "_base": "en",
-      "fr": "Test du EC Compact Dry Plate Counter"
+      "fr": "Test du EC Compact Dry Plate Counter",
+      "tet": "Teste EC compact Dry Plate Counter"
     },
     {
       "en": "Start Remote Debugger",
       "es": "Iniciar el depurador remoto",
       "sw": "Anzisha kichambuzi cha mbali",
       "_base": "en",
-      "fr": "Démarrer le débogueur distant"
+      "fr": "Démarrer le débogueur distant",
+      "tet": "hahu Debugger remota "
     },
     {
       "en": "Signup with mWater",
       "es": "Registrarse con mWater",
       "sw": "Jisajili na mWater",
       "_base": "en",
-      "fr": "S'inscrire auprès de mWater"
+      "fr": "S'inscrire auprès de mWater",
+      "tet": "rejistu ho mWater"
     },
     {
       "en": "Email address",
       "es": "Dirección de correo electrónico",
       "sw": "Anwani ya barua pepe",
       "_base": "en",
-      "fr": "Adresse électronique"
+      "fr": "Adresse électronique",
+      "tet": "diresaun email"
     },
     {
       "en": "Email",
       "es": "Correo electrónico",
       "sw": "Barua pepe",
       "_base": "en",
-      "fr": "Courriel"
+      "fr": "Courriel",
+      "tet": "email"
     },
     {
       "en": "Note: Your email address will never be shared",
       "es": "Nota: Tu dirección de correo electrónico nunca será compartida",
       "sw": "Noti: Anwani yako ya barua pepe kamwe haitawekwa wazi kwa wengine",
       "_base": "en",
-      "fr": "Note : Votre adresse électronique ne sera jamais partagée"
+      "fr": "Note : Votre adresse électronique ne sera jamais partagée",
+      "tet": "Nota: o nia dirasaun email sei nunka atu fahe"
     },
     {
       "en": "Waiting for GPS location...",
       "es": "En espera de ubicación GPS...",
       "sw": "Subiri kupata mahali kwa GPS...",
       "_base": "en",
-      "fr": "Attend la position GPS..."
+      "fr": "Attend la position GPS...",
+      "tet": "hein ba fatin GPS"
     },
     {
       "en": "Search results for:",
       "es": "Los resultados de la búsqueda",
       "sw": "Matokeo ya utafutaji wa:",
       "_base": "en",
-      "fr": "Cherche les résultats pour :"
+      "fr": "Cherche les résultats pour :",
+      "tet": "Rezultadu peskiza ba:"
     },
     {
       "en": "Type:",
       "es": "Tipo",
       "sw": "Aina",
       "_base": "en",
-      "fr": "Type :"
+      "fr": "Type :",
+      "tet": "Tipu:"
     },
     {
       "en": "Location",
       "es": "Ubicación",
       "sw": "Mahali",
       "_base": "en",
-      "fr": "Emplacement"
+      "fr": "Emplacement",
+      "tet": "Fatin"
     },
     {
       "en": "Add",
       "es": "Agregar",
       "sw": "Ongeza",
       "_base": "en",
-      "fr": "Ajouter"
+      "fr": "Ajouter",
+      "tet": "aumenta"
     },
     {
       "en": "Water Tests",
       "es": "Pruebas de Agua",
       "sw": "Testi za Maji",
       "_base": "en",
-      "fr": "Tests de l'eau"
+      "fr": "Tests de l'eau",
+      "tet": "Teste bee"
     },
     {
       "en": "Surveys",
       "es": "Encuestas",
       "sw": "Fomu za Utafiti",
       "_base": "en",
-      "fr": "Enquêtes"
+      "fr": "Enquêtes",
+      "tet": "survei"
     },
     {
       "en": "Photos",
       "es": "Fotos",
       "sw": "Picha",
       "_base": "en",
-      "fr": "Photos"
+      "fr": "Photos",
+      "tet": "foto sira"
     },
     {
       "en": "Incomplete Tests",
       "es": "Pruebas Incompletadas",
       "sw": "Testi ambazo hazijakamilika",
       "_base": "en",
-      "fr": "Tests pas achevés"
+      "fr": "Tests pas achevés",
+      "tet": "la kompleta teste "
     },
     {
       "en": "Test",
       "es": "Prueba",
       "sw": "Testi",
       "_base": "en",
-      "fr": "Test"
+      "fr": "Test",
+      "tet": "Teste"
     },
     {
       "en": "of",
       "es": "de",
       "sw": "ya",
       "_base": "en",
-      "fr": "de"
+      "fr": "de",
+      "tet": "husi"
     },
     {
       "en": "No images present",
       "es": "Sin imágenes",
       "sw": "Hakuna picha",
       "_base": "en",
-      "fr": "Pas d'images présentes"
+      "fr": "Pas d'images présentes",
+      "tet": "laiha imajen agora daudauk"
     },
     {
       "en": "Taking photos not supported on this platform",
       "es": "Esta plataforma no suporta la toma de fotografias",
       "sw": "Upigaji picha haukubaliwi katika mfumo huu wa uendeshaji",
       "_base": "en",
-      "fr": "Prendre des photos n'est pas supporté par cette plateforme"
+      "fr": "Prendre des photos n'est pas supporté par cette plateforme",
+      "tet": "hasai foto la suporta husi plataforma ne'e"
     },
     {
       "en": "started",
       "es": "empezado",
       "sw": "Imeanzwa",
       "_base": "en",
-      "fr": "commencé"
+      "fr": "commencé",
+      "tet": "hahu ona"
     },
     {
       "en": "Request more",
       "es": "Pedir más",
       "sw": "Omba zaidi",
       "_base": "en",
-      "fr": "Demander davantage"
+      "fr": "Demander davantage",
+      "tet": "Presiza tan"
     },
     {
       "en": "Private",
       "es": "Privado",
       "sw": "Binafsi",
       "_base": "en",
-      "fr": "Privé"
+      "fr": "Privé",
+      "tet": "privadu "
     },
     {
       "en": "Needs repair",
       "es": "Necesidades reparadas",
       "sw": "Ukarabati unahitajika",
       "_base": "en",
-      "fr": "À besoin de réparation"
+      "fr": "À besoin de réparation",
+      "tet": "Presiza hadi'a"
     },
     {
       "en": "Edit Survey",
       "es": "Editar Encuesta",
       "sw": "Hariri Fomu ya Utafiti",
       "_base": "en",
-      "fr": "Éditer l'enquête"
+      "fr": "Éditer l'enquête",
+      "tet": "kurizi survei"
     },
     {
       "en": "Edit Test",
       "es": "Editar Prueba",
       "sw": "Hariri Testi",
       "_base": "en",
-      "fr": "Éditer le test"
+      "fr": "Éditer le test",
+      "tet": "kurizi teste"
     },
     {
       "en": "Select units",
       "es": "Seleccionar unidades",
       "sw": "Chagua kipimo",
       "_base": "en",
-      "fr": "Sélectionner les unités"
+      "fr": "Sélectionner les unités",
+      "tet": "selesaun unidade"
     },
     {
       "en": "Draft",
       "es": "Borrador",
       "sw": "Rasimu",
       "_base": "en",
-      "fr": "Projet"
+      "fr": "Projet",
+      "tet": "ezbosu"
     },
     {
       "en": "None",
       "es": "Ninguna",
       "sw": "Hakuna",
       "_base": "en",
-      "fr": "Aucun"
+      "fr": "Aucun",
+      "tet": "lae"
     },
     {
       "en": "Not logged in",
       "es": "No iniciado",
       "sw": "Hujaingia",
       "_base": "en",
-      "fr": "Pas connecté"
+      "fr": "Pas connecté",
+      "tet": "la tama iha"
     },
     {
       "en": "Unlocated",
       "es": "Sin localizar",
       "sw": "Haina mahali",
       "_base": "en",
-      "fr": "Non localisé"
+      "fr": "Non localisé",
+      "tet": "la alokadu"
     },
     {
       "en": "Incomplete",
       "es": "Incompleto",
       "sw": "Haijakamilika",
       "_base": "en",
-      "fr": "Incomplet"
+      "fr": "Incomplet",
+      "tet": "la kompletu"
     },
     {
       "en": "unnamed",
       "es": "sin nombre",
       "sw": "haina jina",
       "_base": "en",
-      "fr": "anonyme"
+      "fr": "anonyme",
+      "tet": "laiha fo naran"
     },
     {
       "en": "Clear",
       "es": "Borrar",
       "sw": "Ondoa",
       "_base": "en",
-      "fr": "Effacer"
+      "fr": "Effacer",
+      "tet": "klaru"
     },
     {
       "en": "Map",
       "es": "Mapa",
       "sw": "Ramani",
       "_base": "en",
-      "fr": "Carte"
+      "fr": "Carte",
+      "tet": "Mapa"
     },
     {
       "en": "Edit",
       "es": "Editar",
       "sw": "Hariri",
       "_base": "en",
-      "fr": "Éditer"
+      "fr": "Éditer",
+      "tet": "kurizi"
     },
     {
       "_base": "en",
       "en": "Pending",
       "es": "",
       "sw": "",
-      "fr": "En attente"
+      "fr": "En attente",
+      "tet": "pendente"
     },
     {
       "_base": "en",
       "en": "Final",
       "es": "",
       "sw": "",
-      "fr": "Définitif"
+      "fr": "Définitif",
+      "tet": "Final"
     },
     {
       "_base": "en",
       "en": "Rejected",
       "es": "",
       "sw": "",
-      "fr": "Rejeté"
+      "fr": "Rejeté",
+      "tet": "rejeite ona"
     },
     {
       "_base": "en",
       "en": "Select survey to start",
       "es": "",
       "sw": "",
-      "fr": "Sélectionner l'enquête à commencer"
+      "fr": "Sélectionner l'enquête à commencer",
+      "tet": "hili survei atu hahu"
     },
     {
       "_base": "en",
       "en": "Survey form not found",
       "es": "",
       "sw": "",
-      "fr": "Le formulaire de l'enquête n'a pas été trouvé"
+      "fr": "Le formulaire de l'enquête n'a pas été trouvé",
+      "tet": "la hetan formulariu survei"
     },
     {
       "_base": "en",
       "en": "Select",
       "es": "",
       "sw": "",
-      "fr": "Sélectionner"
+      "fr": "Sélectionner",
+      "tet": "hili/selekta"
     },
     {
       "_base": "en",
       "en": "Images not available on this platform",
       "es": "",
       "sw": "",
-      "fr": "Les images ne sont pas disponibles sur cette plateforme"
+      "fr": "Les images ne sont pas disponibles sur cette plateforme",
+      "tet": " imajen la disponivel iha plataforma ne'e"
     },
     {
       "_base": "en",
       "en": "GPS not available",
       "es": "",
       "sw": "",
-      "fr": "Le GPS n'est pas disponible"
+      "fr": "Le GPS n'est pas disponible",
+      "tet": "GPS la disponivel"
     },
     {
       "_base": "en",
       "en": "Location Set Successfully",
       "es": "",
       "sw": "",
-      "fr": "Emplacement configuré avec succès"
+      "fr": "Emplacement configuré avec succès",
+      "tet": "Fatin estabelese susesu"
     },
     {
       "_base": "en",
       "en": "Use Anyway",
       "es": "",
       "sw": "",
-      "fr": "Utiliser quand même"
+      "fr": "Utiliser quand même",
+      "tet": "uza  depende"
     },
     {
       "_base": "en",
       "en": "km",
       "es": "",
       "sw": "",
-      "fr": "km"
+      "fr": "km",
+      "tet": "KM"
     },
     {
       "_base": "en",
       "en": "Don't know",
       "es": "",
       "sw": "",
-      "fr": "Ne sais pas"
+      "fr": "Ne sais pas",
+      "tet": "La hatene"
     },
     {
       "_base": "en",
       "en": "Comments",
       "es": "",
       "sw": "",
-      "fr": "Commentaires"
+      "fr": "Commentaires",
+      "tet": "Komentariu"
     },
     {
       "_base": "en",
       "en": "Image not available",
       "es": "",
       "sw": "",
-      "fr": "Images non disponibles"
+      "fr": "Images non disponibles",
+      "tet": "Imajen la disponivel"
     },
     {
       "_base": "en",
       "en": "Sensors",
       "es": "",
       "sw": "",
-      "fr": "Capteurs"
+      "fr": "Capteurs",
+      "tet": "sensor"
     },
     {
       "_base": "en",
       "en": "Only available on Android app",
       "es": "",
       "sw": "",
-      "fr": "Seulement disponible sur l'application Android"
+      "fr": "Seulement disponible sur l'application Android",
+      "tet": "so disponivel iha android app"
     },
     {
       "_base": "en",
       "en": "Unable to connect to Bluetooth",
       "es": "",
       "sw": "",
-      "fr": "Impossible de se connecter à Bluetooth"
+      "fr": "Impossible de se connecter à Bluetooth",
+      "tet": "la bele konesaun husi Bluetooth"
     },
     {
       "_base": "en",
       "en": "Sensor",
       "es": "",
       "sw": "",
-      "fr": "Capteur"
+      "fr": "Capteur",
+      "tet": "sensor"
     },
     {
       "_base": "en",
       "en": "Survey not found",
       "es": "",
       "sw": "",
-      "fr": "L'enquête n'a pas été trouvée"
+      "fr": "L'enquête n'a pas été trouvée",
+      "tet": "survei la hetan"
     },
     {
       "_base": "en",
       "en": "Your app is out of date. Please update in Google Play store.",
       "es": "",
       "sw": "",
-      "fr": "Votre application est dépassée Veuillez SVP mettre à jour dans le Google Play Store"
+      "fr": "Votre application est dépassée Veuillez SVP mettre à jour dans le Google Play Store",
+      "tet": "Ita-nia app liu ona tempu. Favor ida bele atualiza iha  Google Play store."
     },
     {
       "_base": "en",
       "en": "Searching for sensors...",
       "sw": "",
-      "fr": "Recherche des capteurs..."
+      "fr": "Recherche des capteurs...",
+      "tet": "Buka sensor"
     },
     {
       "_base": "en",
       "en": "Upgrade Firmware",
       "sw": "",
-      "fr": "Mettre à jour le firmware"
+      "fr": "Mettre à jour le firmware",
+      "tet": "atualiza beibeik"
     },
     {
       "_base": "en",
       "en": "Delete All Records",
       "sw": "",
-      "fr": "Effacer toutes les enregistrements"
+      "fr": "Effacer toutes les enregistrements",
+      "tet": "apaga gravasaun hotu"
     },
     {
       "_base": "en",
       "en": "Update error",
       "sw": "",
-      "fr": "Mise à jour de l'erreur"
+      "fr": "Mise à jour de l'erreur",
+      "tet": "atualiza erru"
     },
     {
       "_base": "en",
       "en": "Error connecting",
       "sw": "",
-      "fr": "Erreur lors de la connexion"
+      "fr": "Erreur lors de la connexion",
+      "tet": "konesaun erru"
     },
     {
       "_base": "en",
       "en": "Finalizing connection...",
       "sw": "",
-      "fr": "Termine la connexion..."
+      "fr": "Termine la connexion...",
+      "tet": "finalize daudauk konesaun"
     },
     {
       "_base": "en",
       "en": "Connected",
       "sw": "",
-      "fr": "Connecté"
+      "fr": "Connecté",
+      "tet": "konekta ona"
     },
     {
       "_base": "en",
       "en": "Connecting...",
       "sw": "",
-      "fr": "Se connecte"
+      "fr": "Se connecte",
+      "tet": "konekta hela"
     },
     {
       "_base": "en",
       "en": "Pairing with sensor...",
       "sw": "",
-      "fr": "Couplage avec le senseur..."
+      "fr": "Couplage avec le senseur...",
+      "tet": "emparelhamentu ho sensor"
     },
     {
       "_base": "en",
       "en": "Successfully downloaded {0} records",
       "sw": "",
-      "fr": "Enregistrements téléchargés en download avec {0} succès"
+      "fr": "Enregistrements téléchargés en download avec {0} succès",
+      "tet": "Ho susesu gravasaun"
     },
     {
       "_base": "en",
       "en": "No new records were available to download",
       "sw": "",
-      "fr": "Aucun nouvel enregistrement n'était disponible pour le téléchargement en download"
+      "fr": "Aucun nouvel enregistrement n'était disponible pour le téléchargement en download",
+      "tet": "la iha gravasaun foun atu disponivel hodi transfer"
     },
     {
       "_base": "en",
       "en": "Unable to enable logging",
       "sw": "",
-      "fr": "Impossible d'activer l'enregistrement"
+      "fr": "Impossible d'activer l'enregistrement",
+      "tet": "la bele atu bele tama"
     },
     {
       "_base": "en",
       "en": "Unable to disable logging",
       "sw": "",
-      "fr": "Impossible de désactiver l'enregistrement"
+      "fr": "Impossible de désactiver l'enregistrement",
+      "tet": "la bele ativa logging"
     },
     {
       "_base": "en",
       "en": "Not connected",
       "sw": "",
-      "fr": "Pas connecté"
+      "fr": "Pas connecté",
+      "tet": "la konekta "
     },
     {
       "_base": "en",
       "en": "You will need an Ant+ connection and PC and a binary ready. This cannot be undone. Proceed?",
       "sw": "",
-      "fr": "Vous aurez besoin d'une connexion Ant+, d'un PC et d'un binaire à votre disposition Ceci ne peut être annulé Procéder ?"
+      "fr": "Vous aurez besoin d'une connexion Ant+, d'un PC et d'un binaire à votre disposition Ceci ne peut être annulé Procéder ?",
+      "tet": "Ita presiza Ant+ ligasaun no PC no prontu binari ida ne'e. labele sai desfeitu. Kontinua?"
     },
     {
       "_base": "en",
       "en": "Are you really sure you want to do this?",
       "sw": "",
-      "fr": "Êtes-vous vraiment sûr de vouloir faire ceci ?"
+      "fr": "Êtes-vous vraiment sûr de vouloir faire ceci ?",
+      "tet": "Imi fiar duni hakarak atu halo ida ne'e?"
     },
     {
       "_base": "en",
       "en": "Now upload new firmware, following instructions carefully",
       "sw": "",
-      "fr": "Téléchargez à présent en upload le nouveau firmware, en suivant attentivement les instructions"
+      "fr": "Téléchargez à présent en upload le nouveau firmware, en suivant attentivement les instructions",
+      "tet": "Agora platforma firmware foun, halo tuir mandamentu ho kuidadu"
     },
     {
       "_base": "en",
       "en": "Unable to upgrade firmware",
       "sw": "",
-      "fr": "Impossible de mettre à jour le firmware"
+      "fr": "Impossible de mettre à jour le firmware",
+      "tet": "La bele atu atualiza firmware "
     },
     {
       "_base": "en",
       "en": "This will delete all records on the device. This cannot be undone. Proceed?",
       "sw": "",
-      "fr": "Cela effacera tous les enregistrements sur le dispositif Ceci ne peut être annulé Procéder ?"
+      "fr": "Cela effacera tous les enregistrements sur le dispositif Ceci ne peut être annulé Procéder ?",
+      "tet": "ida ne'e sei apaga dokumentu hotu-hotu iha device. Ida-neʼe la bele sai desfeitu. kontinua?"
     },
     {
       "_base": "en",
       "en": "All records deleted",
       "sw": "",
-      "fr": "Tous les enregistrements sont effacées"
+      "fr": "Tous les enregistrements sont effacées",
+      "tet": "Hamos gravasaun dokumentus hotu-hotu"
     },
     {
       "_base": "en",
       "en": "Unable to delete all records",
       "sw": "",
-      "fr": "Impossible d'effacer tous les enregistrements"
+      "fr": "Impossible d'effacer tous les enregistrements",
+      "tet": "la bele hamos gravasaun hotu"
     },
     {
       "_base": "en",
       "en": "Status",
       "sw": "",
-      "fr": "Statut"
+      "fr": "Statut",
+      "tet": "Status"
     },
     {
       "_base": "en",
       "en": "Connection Status",
       "sw": "",
-      "fr": "Statut de la connexion"
+      "fr": "Statut de la connexion",
+      "tet": "koneksaun status"
     },
     {
       "_base": "en",
       "en": "Reconnect",
       "sw": "",
-      "fr": "Se reconnecter"
+      "fr": "Se reconnecter",
+      "tet": "rekoneksaun "
     },
     {
       "_base": "en",
       "en": "Device ID",
       "sw": "",
-      "fr": "Identifiant du dispositif"
+      "fr": "Identifiant du dispositif",
+      "tet": "ID Device"
     },
     {
       "_base": "en",
       "en": "Logging Enabled",
       "sw": "",
-      "fr": "Enregistrement activé"
+      "fr": "Enregistrement activé",
+      "tet": "prosesu tama bele ona"
     },
     {
       "_base": "en",
       "en": "Disable Logging",
       "sw": "",
-      "fr": "Désactiver l'enregistrement"
+      "fr": "Désactiver l'enregistrement",
+      "tet": "taka prosesu tama "
     },
     {
       "_base": "en",
       "en": "Logging Disabled",
       "sw": "",
-      "fr": "Enregistrement désactivé"
+      "fr": "Enregistrement désactivé",
+      "tet": "prosesu tama taka "
     },
     {
       "_base": "en",
       "en": "Enable Logging",
       "sw": "",
-      "fr": "Activer l'enregistrement"
+      "fr": "Activer l'enregistrement",
+      "tet": "bele prosesu tama"
     },
     {
       "_base": "en",
       "en": "Battery",
       "sw": "",
-      "fr": "Batterie"
+      "fr": "Batterie",
+      "tet": "bateria"
     },
     {
       "_base": "en",
       "en": "Memory",
       "sw": "",
-      "fr": "Mémoire"
+      "fr": "Mémoire",
+      "tet": "memoria"
     },
     {
       "_base": "en",
       "en": "Data",
       "sw": "",
-      "fr": "Données"
+      "fr": "Données",
+      "tet": "Dadus"
     },
     {
       "_base": "en",
       "en": "Download Data",
       "sw": "",
-      "fr": "Télécharger des données en download"
+      "fr": "Télécharger des données en download",
+      "tet": "download dadus"
     },
     {
       "_base": "en",
       "en": "Downloading data",
       "sw": "",
-      "fr": "Téléchargement de données en download"
+      "fr": "Téléchargement de données en download",
+      "tet": "Download hela daudauk dadus "
     },
     {
       "_base": "en",
       "en": "Device Information",
       "sw": "",
-      "fr": "Informations sur le dispositif"
+      "fr": "Informations sur le dispositif",
+      "tet": "informasaun device"
     },
     {
       "_base": "en",
       "en": "ID (Bluetooth Address)",
       "sw": "",
-      "fr": "Identifiant (adresse Bluetooth)"
+      "fr": "Identifiant (adresse Bluetooth)",
+      "tet": "ID (diresaun Bluetooth)"
     },
     {
       "_base": "en",
       "en": "Battery voltage",
       "sw": "",
-      "fr": "Tension de la batterie"
+      "fr": "Tension de la batterie",
+      "tet": "voltajem baterai"
     },
     {
       "_base": "en",
       "en": "Internal Device UID",
       "sw": "",
-      "fr": "Dispositif interne UID"
+      "fr": "Dispositif interne UID",
+      "tet": "Device internal UID"
     },
     {
       "_base": "en",
       "en": "Ant+ Channel",
       "sw": "",
-      "fr": "Ant+ Channel"
+      "fr": "Ant+ Channel",
+      "tet": "Ant+kanal"
     },
     {
       "_base": "en",
       "en": "Firmware version",
       "sw": "",
-      "fr": "Version firmware"
+      "fr": "Version firmware",
+      "tet": "versaun firmware"
     },
     {
       "_base": "en",
       "en": "Sample Rate",
       "sw": "",
-      "fr": "Taux d'échantillonnage"
+      "fr": "Taux d'échantillonnage",
+      "tet": "taxa amostra"
     },
     {
       "_base": "en",
       "en": "Records",
       "sw": "",
-      "fr": "Enregistrements"
+      "fr": "Enregistrements",
+      "tet": "Grava"
     },
     {
       "_base": "en",
       "en": "Update Device Status",
       "sw": "",
-      "fr": "Mettre à jour le statut du dispositif"
+      "fr": "Mettre à jour le statut du dispositif",
+      "tet": "atualiza status device"
     },
     {
       "_base": "en",
       "en": "Please update mWater App to use this form",
       "sw": "",
-      "fr": "Veuillez SVP mettre à jour l'application mWater pour utiliser ce formulaire"
+      "fr": "Veuillez SVP mettre à jour l'application mWater pour utiliser ce formulaire",
+      "tet": "Favor aktualiza mWater App hodi uza iha formulariu ne'e"
     },
     {
       "_base": "en",
       "en": "This form is out of date and cannot be opened",
       "sw": "",
-      "fr": "Ce formulaire est dépassé et ne peut pas être ouvert"
+      "fr": "Ce formulaire est dépassé et ne peut pas être ouvert",
+      "tet": "formulariu ne'e la atual no labele loke"
     },
     {
       "_base": "en",
       "en": "Loading mWater App...",
       "sw": "",
-      "fr": "Charge l'application mWater..."
+      "fr": "Charge l'application mWater...",
+      "tet": "prosesu mWate App"
     },
     {
       "_base": "en",
       "en": "as of",
       "sw": "",
-      "fr": "à compter du"
+      "fr": "à compter du",
+      "tet": "hanesan"
     },
     {
       "_base": "en",
       "en": "Loading...",
       "sw": "",
-      "fr": "Charge..."
+      "fr": "Charge...",
+      "tet": "prosesu"
     },
     {
       "_base": "en",
       "en": "Unknown",
       "sw": "",
-      "fr": "Inconnu"
+      "fr": "Inconnu",
+      "tet": "deskoinesidu"
     },
     {
       "_base": "en",
       "en": "Status Updates",
       "sw": "",
-      "fr": "Mises à jour du statut"
+      "fr": "Mises à jour du statut",
+      "tet": "atualiza status"
     },
     {
       "_base": "en",
       "en": "No connection",
       "sw": "",
-      "fr": "Pas de connexion"
+      "fr": "Pas de connexion",
+      "tet": "laiha konesaun"
     },
     {
       "_base": "en",
       "en": "Server error",
       "sw": "",
-      "fr": "Erreur du serveur"
+      "fr": "Erreur du serveur",
+      "tet": "server erru"
     },
     {
       "_base": "en",
       "en": "Upload error",
       "sw": "",
-      "fr": "Erreur lors du téléchargement en upload"
+      "fr": "Erreur lors du téléchargement en upload",
+      "tet": "Erru hatama"
     },
     {
       "_base": "en",
       "en": "Updates",
       "sw": "",
-      "fr": "Mises à jour"
+      "fr": "Mises à jour",
+      "tet": "atualiza"
     },
     {
       "_base": "en",
       "en": "Check for updates",
       "sw": "",
-      "fr": "Vérification des mises à jour"
+      "fr": "Vérification des mises à jour",
+      "tet": "check hodi atualiza  "
     },
     {
       "_base": "en",
       "en": "Updating...",
       "sw": "",
-      "fr": "Met à jour"
+      "fr": "Met à jour",
+      "tet": "Atualiza hela"
     },
     {
       "_base": "en",
       "en": "No Connection",
       "sw": "",
-      "fr": "Pas de connexion"
+      "fr": "Pas de connexion",
+      "tet": "La iha konesaun"
     },
     {
       "_base": "en",
       "en": "Up to date",
       "sw": "",
-      "fr": "À jour"
+      "fr": "À jour",
+      "tet": "Atualizadu"
     },
     {
       "_base": "en",
       "en": "Error updating",
       "sw": "",
-      "fr": "Mise à jour d'une erreur"
+      "fr": "Mise à jour d'une erreur",
+      "tet": "Atualiza sei erru "
     },
     {
       "_base": "en",
       "en": "In progress...",
       "sw": "",
-      "fr": "En progrès"
+      "fr": "En progrès",
+      "tet": "progresu hela"
     },
     {
       "_base": "en",
       "en": "If no surveys appear, please contact info@mwater.co to learn how to set one up",
       "sw": "",
-      "fr": "Si aucune enquête n'apparaît, veuillez SVP prendre contact avec info@mwater.co pour apprendre comment en configurer une"
+      "fr": "Si aucune enquête n'apparaît, veuillez SVP prendre contact avec info@mwater.co pour apprendre comment en configurer une",
+      "tet": "karik laiha survei mak mosu, favor kontaktu info@mwater.co atu aprende oinsa atu estabelese"
     },
     {
       "_base": "en",
       "en": "Cannot set location",
       "sw": "",
-      "fr": "Ne peut configurer l'emplacement"
+      "fr": "Ne peut configurer l'emplacement",
+      "tet": "labele monta fatin "
     },
     {
       "_base": "en",
       "en": "Use location with very low accuracy (±{0}m)?",
       "sw": "",
-      "fr": "Utiliser l'emplacement avec une très faible précision (±{0}m) ?"
+      "fr": "Utiliser l'emplacement avec une très faible précision (±{0}m) ?",
+      "tet": "uza fatin ho ki'ik liu loloos ((±{0}m)?"
     },
     {
       "_base": "en",
       "en": "Username must be composed of letters, numbers, spaces, period and dash and must be at least 4 characters long. It must start with a letter.",
       "sw": "",
-      "fr": "Le nom d'utilisateur doit être composé de lettres, nombres, espaces, point et tiret, et doit contenir au moins 4 caractères Il doit commencer par une lettre"
+      "fr": "Le nom d'utilisateur doit être composé de lettres, nombres, espaces, point et tiret, et doit contenir au moins 4 caractères Il doit commencer par une lettre",
+      "tet": "Naran Uza tenkiser kompostu husi letra sira, numeru, espasu, periodu no sinal no tenkiser menus liu mak karakter 4.  ida ne'e tenke hahu hahu ho letra ida"
     },
     {
       "_base": "en",
       "en": "Not Applicable",
       "sw": "",
-      "fr": "Pas applicable"
+      "fr": "Pas applicable",
+      "tet": "la aplikavel "
     },
     {
       "_base": "en",
       "en": "Network error. Unable to save image.",
       "sw": "",
-      "fr": "Erreur de réseau  Impossible de sauvegarder une image"
+      "fr": "Erreur de réseau  Impossible de sauvegarder une image",
+      "tet": "Rede erru. Labele atu rai imajen"
     },
     {
       "_base": "en",
       "en": "You are trying to save too large of a region of the map. Please zoom in further.",
       "sw": "",
-      "fr": "Vous êtes en train d'essayer de sauvegarder une zone trop large de la carte Veuillez SVP zoomer davantage en avant"
+      "fr": "Vous êtes en train d'essayer de sauvegarder une zone trop large de la carte Veuillez SVP zoomer davantage en avant",
+      "tet": "imi koko atu rai/salva boot liu husi regiaun ba iha mapa. Favor aproxima liu tan"
     },
     {
       "_base": "en",
       "en": "Make Available Offline",
       "sw": "",
-      "fr": "Rendre disponible hors ligne"
+      "fr": "Rendre disponible hors ligne",
+      "tet": "Halo disponivel Offline"
     },
     {
       "_base": "en",
       "en": "Download approximately {0} MB of map data and make available offline?",
       "sw": "",
-      "fr": "Télécharger en download environ  {0} MB de données cartographiques et rendre disponible hors ligne ?"
+      "fr": "Télécharger en download environ  {0} MB de données cartographiques et rendre disponible hors ligne ?",
+      "tet": "Download maizumenus (0) MB data husi mapa no bele halo offline"
     },
     {
       "_base": "en",
       "en": "Saving cancelled",
       "sw": "",
-      "fr": "Sauvegarde annulée"
+      "fr": "Sauvegarde annulée",
+      "tet": "atu rai/salva kanseladu"
     },
     {
       "_base": "en",
       "en": "Map has been saved successfully",
       "sw": "",
-      "fr": "La carte a été sauvegardée avec succès"
+      "fr": "La carte a été sauvegardée avec succès",
+      "tet": "mapa rai ona ho susesu"
     },
     {
       "_base": "en",
       "en": "An error occurred downloading map",
       "sw": "",
-      "fr": "Une erreur s'est produite en téléchargeant une carte en download"
+      "fr": "Une erreur s'est produite en téléchargeant une carte en download",
+      "tet": "Iha erru mak mosu iha downloading mapa "
     },
     {
       "_base": "en",
       "en": "Cancelling...",
       "sw": "",
-      "fr": "Annule..."
+      "fr": "Annule...",
+      "tet": "kanselamentu "
     },
     {
       "_base": "en",
       "en": "Saving {0}% complete",
       "sw": "",
-      "fr": "Sauvegarde {0}% terminée"
+      "fr": "Sauvegarde {0}% terminée",
+      "tet": "Rai daudauk (0) kompletu"
     },
     {
       "_base": "en",
       "en": "Calculating...",
       "sw": "",
-      "fr": "Calcule"
+      "fr": "Calcule",
+      "tet": "kalkula daudauk"
     },
     {
       "_base": "en",
       "en": "Your app is out of date. Please update mWater App on Google Play",
       "sw": "",
-      "fr": "Votre application est dépassée Veuillez SVP mettre à jour l'application mWater sur Google Play"
+      "fr": "Votre application est dépassée Veuillez SVP mettre à jour l'application mWater sur Google Play",
+      "tet": "itaboot nia app la atual. Favor atualiza mWater iha Google Play"
     },
     {
       "_base": "en",
       "en": "Site Map",
       "sw": "",
-      "fr": "Carte du site"
+      "fr": "Carte du site",
+      "tet": "area husi mapa"
     },
     {
       "_base": "en",
       "en": "System is busy",
       "sw": "",
-      "fr": "Le système est occupé"
+      "fr": "Le système est occupé",
+      "tet": "sistema okupadu"
     },
     {
       "_base": "en",
       "en": "List",
       "sw": "",
-      "fr": "Liste"
+      "fr": "Liste",
+      "tet": "Lista "
     },
     {
       "_base": "en",
       "en": "All Sites",
       "sw": "",
-      "fr": "Tous les sites"
+      "fr": "Tous les sites",
+      "tet": "area hotu"
     },
     {
       "_base": "en",
       "en": "Only My Groups",
       "sw": "",
-      "fr": "Seulement mes groupes"
+      "fr": "Seulement mes groupes",
+      "tet": "so de'it ha'u nia grupu"
     },
     {
       "_base": "en",
       "en": "Map of Sites",
       "sw": "",
-      "fr": "Carte des sites"
+      "fr": "Carte des sites",
+      "tet": "Mapa husi area sira"
     },
     {
       "_base": "en",
       "en": "List of Sites",
       "sw": "",
-      "fr": "Liste des sites"
+      "fr": "Liste des sites",
+      "tet": "lista husi area sira"
     },
     {
       "_base": "en",
       "en": "Site",
       "sw": "",
-      "fr": "Site"
+      "fr": "Site",
+      "tet": "area"
     },
     {
       "_base": "en",
       "en": "Type",
       "sw": "",
-      "fr": "Type"
+      "fr": "Type",
+      "tet": "Tipu"
     },
     {
       "_base": "en",
       "en": "Code",
       "sw": "",
-      "fr": "Code"
+      "fr": "Code",
+      "tet": "kodiku"
     },
     {
       "_base": "en",
       "en": "Set Location Here",
       "sw": "",
-      "fr": "Configurer l'emplacement ici"
+      "fr": "Configurer l'emplacement ici",
+      "tet": "estabelese fatin iha ne'e"
     },
     {
       "_base": "en",
       "en": "Error resetting database",
       "sw": "",
-      "fr": "Erreur de réinitialisation de la base de données"
+      "fr": "Erreur de réinitialisation de la base de données",
+      "tet": "erru atu hamosu fali baze de dadus "
     },
     {
       "_base": "en",
       "en": "Reset successful",
       "sw": "",
-      "fr": "Réinitialisation réussie"
+      "fr": "Réinitialisation réussie",
+      "tet": "re-definisaun susesu"
     },
     {
       "_base": "en",
       "en": "Nearby Sites",
       "sw": "",
-      "fr": "Sites proches"
+      "fr": "Sites proches",
+      "tet": "area besik"
     },
     {
       "_base": "en",
       "en": "Enter search text or ID of site",
       "sw": "",
-      "fr": "Entrez le texte à chercher ou l'identifiant du site"
+      "fr": "Entrez le texte à chercher ou l'identifiant du site",
+      "tet": "buka hatama text ou ID husi area"
     },
     {
       "_base": "en",
       "en": "Site not found",
       "sw": "",
-      "fr": "Impossible de trouver le site"
+      "fr": "Impossible de trouver le site",
+      "tet": "Area la hetan"
     },
     {
       "_base": "en",
       "en": "Site {0}",
       "sw": "",
-      "fr": "Site {0}"
+      "fr": "Site {0}",
+      "tet": "area (0)"
     },
     {
       "_base": "en",
       "en": "Delete Site",
       "sw": "",
-      "fr": "Effacer le site"
+      "fr": "Effacer le site",
+      "tet": "hamos sitiu"
     },
     {
       "_base": "en",
       "en": "Don't Know",
       "sw": "",
-      "fr": "Ne sais pas"
+      "fr": "Ne sais pas",
+      "tet": "la hatene"
     },
     {
       "_base": "en",
       "en": "No Location Set",
       "sw": "",
-      "fr": "Pas d'emplacement configuré"
+      "fr": "Pas d'emplacement configuré",
+      "tet": "la iha fatin estabelese. "
     },
     {
       "_base": "en",
       "en": "Permanently delete site?",
       "sw": "",
-      "fr": "Effacer le site de façon permanente ?"
+      "fr": "Effacer le site de façon permanente ?",
+      "tet": "hamos area permanente"
     },
     {
       "_base": "en",
       "en": "Site deleted",
       "sw": "",
-      "fr": "Site effacé"
+      "fr": "Site effacé",
+      "tet": "area ne'e hamoos ona"
     },
     {
       "_base": "en",
       "en": "New Site",
       "sw": "",
-      "fr": "Nouveau site"
+      "fr": "Nouveau site",
+      "tet": "area foun"
     },
     {
       "_base": "en",
       "en": "Site privacy",
       "sw": "",
-      "fr": "Politique de confidentialité du site"
+      "fr": "Politique de confidentialité du site",
+      "tet": "Area privasidade"
     },
     {
       "_base": "en",
       "en": "Public",
       "sw": "",
-      "fr": "Public"
+      "fr": "Public",
+      "tet": "publiku"
     },
     {
       "_base": "en",
       "en": "Visible",
       "sw": "",
-      "fr": "Visible"
+      "fr": "Visible",
+      "tet": "haree"
     },
     {
       "_base": "en",
       "en": "Private should only be used for sites that are not publicly accessible",
       "sw": "",
-      "fr": "Privé devrait uniquement être utilisé pour les sites qui ne sont pas accessibles au public"
+      "fr": "Privé devrait uniquement être utilisé pour les sites qui ne sont pas accessibles au public",
+      "tet": "Privadu so bele de'it uza area ne'ebe mak   la asesu ba publiku.  "
     },
     {
       "_base": "en",
       "en": "(No Group)",
       "sw": "",
-      "fr": "(Pas de groupe)"
+      "fr": "(Pas de groupe)",
+      "tet": "(la agrupa)"
     },
     {
       "_base": "en",
       "en": "Create site for group",
       "sw": "",
-      "fr": "Créer un site pour un groupe"
+      "fr": "Créer un site pour un groupe",
+      "tet": "kria area ba grupu"
     },
     {
       "_base": "en",
       "en": "Please correct values",
       "sw": "",
-      "fr": "Veuillez SVP corriger les valeurs"
+      "fr": "Veuillez SVP corriger les valeurs",
+      "tet": "favor kurizi valor sira"
     },
     {
       "_base": "en",
       "en": "Unable to generate site id. Please ensure that you have a connection or use Settings to obtain more before going out of connection range.",
       "sw": "",
-      "fr": "Impossible de générer un identifiant du site. Veuillez SVP vous assurer que vous avez une connexion ou que vous utilisez les Paramètres pour obtenir davantage avant d'être hors de portée de la connexion"
+      "fr": "Impossible de générer un identifiant du site. Veuillez SVP vous assurer que vous avez une connexion ou que vous utilisez les Paramètres pour obtenir davantage avant d'être hors de portée de la connexion",
+      "tet": "la bele jeneraliza id area. Favor verifika ita boot nia konesaun ou uza konfigurasaun atu hetan barak liu antes sai husi  lina  konesaun"
     },
     {
       "_base": "en",
       "en": "Offline Site Creation",
       "sw": "",
-      "fr": "Création de site hors-ligne"
+      "fr": "Création de site hors-ligne",
+      "tet": "kriasaun area offline"
     },
     {
       "_base": "en",
       "en": "Number of sites that can be created offline:",
       "sw": "",
-      "fr": "Nombre de sites qui peuvent être créés hors-ligne :"
+      "fr": "Nombre de sites qui peuvent être créés hors-ligne :",
+      "tet": "numeiru husi area sira bele kria offline:"
     },
     {
       "_base": "en",
       "en": "Reset Storage",
       "sw": "",
-      "fr": "Réinitialisation du stockage"
+      "fr": "Réinitialisation du stockage",
+      "tet": "reorganiza fatin rai dadus (storage) "
     },
     {
       "_base": "en",
       "en": "See the map for a global view if no sites are found.",
       "sw": "",
-      "fr": "Consulter la carte pour une vue globale si aucun site ne peut être trouvé"
+      "fr": "Consulter la carte pour une vue globale si aucun site ne peut être trouvé",
+      "tet": "haree mapa husi visita global karik area la hetan"
     },
     {
       "_base": "en",
       "en": "Note",
       "sw": "",
-      "fr": "Note :"
+      "fr": "Note :",
+      "tet": "nota"
     },
     {
       "_base": "en",
       "en": "Select Site",
       "sw": "",
-      "fr": "Sélectionnez le site"
+      "fr": "Sélectionnez le site",
+      "tet": "selesaun sitiu"
     },
     {
       "_base": "en",
       "en": "Code:",
       "sw": "",
-      "fr": "Code"
+      "fr": "Code",
+      "tet": "kodiku"
     },
     {
       "_base": "en",
       "en": "Note: Your username is visible on sites you create",
       "sw": "",
-      "fr": "Note : Votre nom d'utilisateur est visible sur les sites que vous créez"
+      "fr": "Note : Votre nom d'utilisateur est visible sur les sites que vous créez",
+      "tet": "notas; usa naran ita boot nia haree iha sitiu ne'ebe ita halo"
     },
     {
       "_base": "en",
       "en": "Create",
       "sw": "",
-      "fr": "Créer"
+      "fr": "Créer",
+      "tet": "kria"
     },
     {
       "_base": "en",
       "en": "Status for Site {0}",
       "sw": "",
-      "fr": "Statut pour le site {0}"
+      "fr": "Statut pour le site {0}",
+      "tet": "status ba sitiu (0)"
     },
     {
       "_base": "en",
       "en": "Status of Site",
       "sw": "",
-      "fr": "Statut du site"
-    },
-    {
-      "_base": "en",
-      "en": "Lat/lng:",
-      "sw": "",
-      "fr": "Latitude/longitude",
-      "_unused": true
+      "fr": "Statut du site",
+      "tet": "status husi area"
     },
     {
       "_base": "en",
       "en": "View on Map",
       "sw": "",
-      "fr": "Vue sur la carte"
+      "fr": "Vue sur la carte",
+      "tet": "visita iha mapa"
     },
     {
       "_base": "en",
       "en": "Edit Site {0}",
       "sw": "",
-      "fr": "Éditer le site {0}"
+      "fr": "Éditer le site {0}",
+      "tet": "kurizi area (0)"
     },
     {
       "_base": "en",
       "en": "Select site type",
       "sw": "",
-      "fr": "Sélectionner le type de site"
+      "fr": "Sélectionner le type de site",
+      "tet": "hili tipu area"
     },
     {
       "_base": "en",
       "en": "Select optional site subtype",
       "sw": "",
-      "fr": "Sélectionner un sous-type de site optionnel"
+      "fr": "Sélectionner un sous-type de site optionnel",
+      "tet": "hili subtipu area opsional"
     },
     {
       "_base": "en",
       "en": "Enter site location",
       "sw": "",
-      "fr": "Entrer l'emplacement du site"
+      "fr": "Entrer l'emplacement du site",
+      "tet": "hatama fatin area"
     },
     {
       "_base": "en",
       "en": "Other (please specify)",
       "sw": "",
-      "fr": "Autre (veuillez SVP préciser)"
+      "fr": "Autre (veuillez SVP préciser)",
+      "tet": "seluk (favor esfesifiku)"
     },
     {
       "_base": "en",
       "en": "Pump/lifting device",
       "sw": "",
-      "fr": "Dispositif pompe/levage"
+      "fr": "Dispositif pompe/levage",
+      "tet": "Bomba/ dispositivu ba elevasaun"
     },
     {
       "_base": "en",
       "en": "Powered by",
       "sw": "",
-      "fr": "Alimenté par"
+      "fr": "Alimenté par",
+      "tet": "distribuidu ba"
     },
     {
       "_base": "en",
       "en": "Drilling method",
       "sw": "",
-      "fr": "Méthode de perçage"
+      "fr": "Méthode de perçage",
+      "tet": "Metudu de Perfurasaun"
     },
     {
       "_base": "en",
       "en": "Supply",
       "sw": "",
-      "fr": "Approvisionnement"
+      "fr": "Approvisionnement",
+      "tet": "Fornese"
     },
     {
       "_base": "en",
       "en": "Treatment works",
       "sw": "",
-      "fr": "Traitement fonctionne"
+      "fr": "Traitement fonctionne",
+      "tet": "Tratamentu Servisu"
     },
     {
       "_base": "en",
       "en": "Pit emptying",
       "sw": "",
-      "fr": "Vidange des fosses"
+      "fr": "Vidange des fosses",
+      "tet": "kuak mamuk "
     },
     {
       "_base": "en",
       "en": "Treatment",
       "sw": "",
-      "fr": "Traitement"
+      "fr": "Traitement",
+      "tet": "Tratamentu"
     },
     {
       "_base": "en",
       "en": "Set As Cover",
       "sw": "",
-      "fr": "Conçu comme couverture"
-    },
-    {
-      "_base": "en",
-      "en": "meters",
-      "sw": "",
-      "fr": "mètres"
+      "fr": "Conçu comme couverture",
+      "tet": "estabelesementu Kapa"
     },
     {
       "_base": "en",
       "en": "Current Location",
       "sw": "",
-      "fr": "Emplacement actuel"
+      "fr": "Emplacement actuel",
+      "tet": "fatin atual "
     },
     {
       "_base": "en",
       "en": "Use Map",
       "sw": "",
-      "fr": "Utiliser la carte"
+      "fr": "Utiliser la carte",
+      "tet": "Uza mapa "
     },
     {
       "_base": "en",
       "en": "Water point",
       "sw": "",
-      "fr": "Point d'eau"
+      "fr": "Point d'eau",
+      "tet": "Pontu bee"
     },
     {
       "_base": "en",
       "en": "Protected dug well",
       "sw": "",
-      "fr": "Puits creusé protégé"
+      "fr": "Puits creusé protégé",
+      "tet": "Kee bee matan protezidu "
     },
     {
       "_base": "en",
       "en": "Unprotected dug well",
       "sw": "",
-      "fr": "Puits creusé non protégé"
+      "fr": "Puits creusé non protégé",
+      "tet": "Kee bee matan la protezidu "
     },
     {
       "_base": "en",
       "en": "Borehole or tubewell",
       "sw": "",
-      "fr": "Forage ou puits tubulaire"
+      "fr": "Forage ou puits tubulaire",
+      "tet": "kuak bor ou bee matan bor"
     },
     {
       "_base": "en",
       "en": "Protected spring",
       "sw": "",
-      "fr": "Source protégée"
+      "fr": "Source protégée",
+      "tet": "Tempu bailoron protezidu"
     },
     {
       "_base": "en",
       "en": "Unprotected spring",
       "sw": "",
-      "fr": "Source non protégée"
+      "fr": "Source non protégée",
+      "tet": "Tempu bailoron la protezidu"
     },
     {
       "_base": "en",
       "en": "Rainwater",
       "sw": "",
-      "fr": "Eau de pluie"
+      "fr": "Eau de pluie",
+      "tet": "udan bee"
     },
     {
       "_base": "en",
       "en": "Surface water",
       "sw": "",
-      "fr": "Eaux de surface"
+      "fr": "Eaux de surface",
+      "tet": "superficial bee/permukaan air"
     },
     {
       "_base": "en",
       "en": "Piped into dwelling",
       "sw": "",
-      "fr": "Eau courante à domicile"
+      "fr": "Eau courante à domicile",
+      "tet": "kanalizasaun ba habitasaun"
     },
     {
       "_base": "en",
       "en": "Piped into yard/plot",
       "sw": "",
-      "fr": "Canalisée vers une cour/terrain"
+      "fr": "Canalisée vers une cour/terrain",
+      "tet": "kanalizasaun ba kintal/plot"
     },
     {
       "_base": "en",
       "en": "Piped into public tap or basin",
       "sw": "",
-      "fr": "Canalisée vers un robinet ou un bassin public"
+      "fr": "Canalisée vers un robinet ou un bassin public",
+      "tet": "Kanalizasaun ba torneira ou tanke publiku"
     },
     {
       "_base": "en",
       "en": "Bottled water",
       "sw": "",
-      "fr": "Eau en bouteille"
+      "fr": "Eau en bouteille",
+      "tet": "Bee tau iha botir "
     },
     {
       "_base": "en",
       "en": "Tanker truck",
       "sw": "",
-      "fr": "Camion-citerne"
+      "fr": "Camion-citerne",
+      "tet": "Tanke kamioneta"
     },
     {
       "_base": "en",
       "en": "Cart with small tank/drum",
       "sw": "",
-      "fr": "Charrette surmontée d'un petit réservoir/fût"
+      "fr": "Charrette surmontée d'un petit réservoir/fût",
+      "tet": "Karo ho tanki ki'ik/drum"
     },
     {
       "_base": "en",
       "en": "Sanitation facility",
       "sw": "",
-      "fr": "Installation d'assainissement"
+      "fr": "Installation d'assainissement",
+      "tet": "fasilidade Saneamentu"
     },
     {
       "_base": "en",
       "en": "Flush/pour flush toilet",
       "sw": "",
-      "fr": "Chasse/toilette à chasse manuelle"
+      "fr": "Chasse/toilette à chasse manuelle",
+      "tet": "rega/ toilet sentor"
     },
     {
       "_base": "en",
       "en": "Ventilated improved pit latrine",
       "sw": "",
-      "fr": "Latrine améliorée à fosse autoventilée"
+      "fr": "Latrine améliorée à fosse autoventilée",
+      "tet": "Hadia ventiladu latrina kuak"
     },
     {
       "_base": "en",
       "en": "Pit latrine with slab",
       "sw": "",
-      "fr": "Latrine à fosse avec plaque"
+      "fr": "Latrine à fosse avec plaque",
+      "tet": "Rai-kuak latrine ho slab/taka"
     },
     {
       "_base": "en",
       "en": "Composting toilet",
       "sw": "",
-      "fr": "Cabinet d'aisance à compost"
+      "fr": "Cabinet d'aisance à compost",
+      "tet": "Sintina Kompos"
     },
     {
       "_base": "en",
       "en": "Pit latrine without slab",
       "sw": "",
-      "fr": "Latrine à fosse sans plaque"
+      "fr": "Latrine à fosse sans plaque",
+      "tet": "latrine Rai-kuak  sein slab/taka"
     },
     {
       "_base": "en",
       "en": "Hanging latrine",
       "sw": "",
-      "fr": "Latrine suspendue"
+      "fr": "Latrine suspendue",
+      "tet": "latrine tara"
     },
     {
       "_base": "en",
       "en": "Bucket",
       "sw": "",
-      "fr": "Seau"
+      "fr": "Seau",
+      "tet": "Balde"
     },
     {
       "_base": "en",
       "en": "No facilities or bush or field",
       "sw": "",
-      "fr": "Pas de commodités ou de buisson ou de champs"
+      "fr": "Pas de commodités ou de buisson ou de champs",
+      "tet": "la iha fasilidade ou ai laran"
     },
     {
       "_base": "en",
       "en": "Household",
       "sw": "",
-      "fr": "Ménage"
+      "fr": "Ménage",
+      "tet": "Uma Kain"
     },
     {
       "_base": "en",
       "en": "Community",
       "sw": "",
-      "fr": "Communauté"
+      "fr": "Communauté",
+      "tet": "Komunidade"
     },
     {
       "_base": "en",
       "en": "School",
       "sw": "",
-      "fr": "École"
+      "fr": "École",
+      "tet": "Escola"
     },
     {
       "_base": "en",
       "en": "Health facility",
       "sw": "",
-      "fr": "Centre de santé"
+      "fr": "Centre de santé",
+      "tet": "fasilidade Saude"
     },
     {
       "_base": "en",
       "en": "Your browser is refusing to store data for offline use. Please check that not in private browsing mode and reload page.",
       "sw": "",
-      "fr": "Votre navigateur refuse de stocker des données pour l'utilisation hors ligne. Veuillez SVP vérifier que vous n'êtes pas en mode de navigation privée et rechargez la page"
+      "fr": "Votre navigateur refuse de stocker des données pour l'utilisation hors ligne. Veuillez SVP vérifier que vous n'êtes pas en mode de navigation privée et rechargez la page",
+      "tet": "saida mak buka la simu atu rai dadus ba uza offline. Favor verifika katak laiha modus browsing privadu no fila fali ba pagina."
     },
     {
       "_base": "en",
       "en": "All Types",
       "sw": "",
-      "fr": "Tous les types"
+      "fr": "Tous les types",
+      "tet": "Tipu hotu-hotu"
     },
     {
       "_base": "en",
       "en": "Leave the group '{0}'? Only a group admin can re-add you.",
       "sw": "",
-      "fr": "Quitter le groupe '{0}' ? Seul un administrateur de groupe peut vous ajouter à nouveau"
+      "fr": "Quitter le groupe '{0}' ? Seul un administrateur de groupe peut vous ajouter à nouveau",
+      "tet": "husik hela grupu (0)? So de'it administrador grupu bele aumenta fali ita boot"
     },
     {
       "_base": "en",
       "en": "Leave",
       "sw": "",
-      "fr": "Quitter"
+      "fr": "Quitter",
+      "tet": "Sai"
     },
     {
       "_base": "en",
       "en": "You are not a member of any groups",
       "sw": "",
-      "fr": "Vous n'êtes membre d'aucun groupe"
+      "fr": "Vous n'êtes membre d'aucun groupe",
+      "tet": "ita boot laos membru husi grupo ruma"
     },
     {
       "_base": "en",
       "en": "A draft already exists for this survey",
       "sw": "",
-      "fr": "Un projet existe déjà pour cette enquête"
+      "fr": "Un projet existe déjà pour cette enquête",
+      "tet": "Iha ezbosu mak eziste ona ba Survei ida ne'e"
     },
     {
       "_base": "en",
       "en": "Use Existing Draft",
       "sw": "",
-      "fr": "Utiliser un projet déjà existant"
+      "fr": "Utiliser un projet déjà existant",
+      "tet": "Uza ezbosu ne'ebe existe ona."
     },
     {
       "_base": "en",
       "en": "Several drafts already exists for this survey",
       "sw": "",
-      "fr": "Un projet existe déjà pour cette enquête"
+      "fr": "Un projet existe déjà pour cette enquête",
+      "tet": "ezbosu balun eziste tiha ona iha survei ne'e."
     },
     {
       "_base": "en",
       "en": "Go to Drafts",
       "sw": "",
-      "fr": "Aller à projets"
+      "fr": "Aller à projets",
+      "tet": "Ba iha ezbosu"
     },
     {
       "_base": "en",
       "en": "Response has been finalized and cannot be edited",
       "sw": "",
-      "fr": "La réponse a été finalisée et ne peut être éditée"
+      "fr": "La réponse a été finalisée et ne peut être éditée",
+      "tet": "Resposta finaliza tiha ona no labele kurizi"
     },
     {
       "_base": "en",
       "en": "Response is pending approval",
       "sw": "",
-      "fr": "La réponse est en attente d'approbation"
+      "fr": "La réponse est en attente d'approbation",
+      "tet": "Resposta pendente hela ba aprovasaun"
     },
     {
       "_base": "en",
       "en": "Submit",
       "sw": "",
-      "fr": "Soumettre"
+      "fr": "Soumettre",
+      "tet": "Haruka/intrega"
     },
     {
       "_base": "en",
@@ -2259,7 +2587,8 @@
       "_base": "en",
       "en": "Total Coliform",
       "sw": "",
-      "fr": "Coliformes totaux"
+      "fr": "Coliformes totaux",
+      "tet": "total koliforma"
     },
     {
       "_base": "en",
@@ -2338,6 +2667,57 @@
       "en": "Barcode scanning not supported on this platform",
       "sw": "",
       "fr": ""
+    },
+    {
+      "_base": "en",
+      "en": "m",
+      "es": "",
+      "sw": "",
+      "fr": ""
+    },
+    {
+      "_base": "en",
+      "en": "Update Status",
+      "fr": "Mettre à jour le statut",
+      "sw": ""
+    },
+    {
+      "_base": "en",
+      "en": "Lat/lng: ",
+      "fr": "Lat/lng : ",
+      "sw": ""
+    },
+    {
+      "_base": "en",
+      "en": "Not supported on this platform",
+      "fr": "",
+      "sw": ""
+    },
+    {
+      "_base": "en",
+      "en": "Data Not Found",
+      "fr": "",
+      "sw": ""
+    },
+    {
+      "_base": "en",
+      "en": "Change",
+      "fr": "",
+      "sw": ""
+    },
+    {
+      "_base": "en",
+      "en": "Lat/lng:",
+      "sw": "",
+      "fr": "Latitude/longitude",
+      "_unused": true
+    },
+    {
+      "_base": "en",
+      "en": "meters",
+      "sw": "",
+      "fr": "mètres",
+      "_unused": true
     },
     {
       "en": "<b>{0} images to upload</b>",
@@ -2838,13 +3218,6 @@
     },
     {
       "_base": "en",
-      "en": "m",
-      "es": "",
-      "sw": "",
-      "_unused": true
-    },
-    {
-      "_base": "en",
       "en": "N/A",
       "es": "",
       "sw": "",
@@ -2953,18 +3326,6 @@
       "en": "My Groups",
       "sw": "",
       "_unused": true
-    },
-    {
-      "_base": "en",
-      "en": "Update Status",
-      "fr": "Mettre à jour le statut",
-      "sw": ""
-    },
-    {
-      "_base": "en",
-      "en": "Lat/lng: ",
-      "fr": "Lat/lng : ",
-      "sw": ""
     }
   ]
 }
