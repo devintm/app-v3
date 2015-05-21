@@ -7,6 +7,12 @@ ResponseModel = require('mwater-common').ResponseModel
 # Creates a new survey from a list
 # Pass in site option (code of site) to specify a site to prefill in survey
 module.exports = class NewSurveyPage extends Page
+  constructor: (options) ->
+    super(options)
+
+    # Debounce creation for issue https://github.com/mWater/mwater-portal/issues/303
+    @startSurvey = _.debounce(@startSurvey, 1000, true)
+
   @canOpen: (ctx) -> ctx.auth.insert("responses")
 
   events: 
@@ -36,7 +42,7 @@ module.exports = class NewSurveyPage extends Page
       @$el.html require('./NewSurveyPage.hbs')(forms:data)
     , @error
 
-  startSurvey: (ev) ->
+  startSurvey: (ev) =>
     surveyId = ev.currentTarget.id
 
     form = _.findWhere(@forms, { _id: surveyId })
