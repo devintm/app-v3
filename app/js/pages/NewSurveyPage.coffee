@@ -2,7 +2,7 @@ Page = require "../Page"
 SurveyPage = require "./SurveyPage"
 forms = require '../forms'
 mwaterforms = require 'mwater-forms'
-ResponseModel = require('mwater-common').ResponseModel
+ResponseModel = require('mwater-forms').ResponseModel
 
 # Creates a new survey from a list
 # Pass in site option (code of site) to specify a site to prefill in survey
@@ -51,7 +51,7 @@ module.exports = class NewSurveyPage extends Page
       return
 
     response = {}
-    responseModel = new ResponseModel(response, form, @login.user, @login.groups) 
+    responseModel = new ResponseModel(response: response, form: form, user: @login.user, groups: @login.groups) 
     responseModel.draft()
 
     # Fill in first site question

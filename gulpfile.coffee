@@ -194,9 +194,30 @@ gulp.task 'seeds', (cb) ->
       return cb(new Error("Server error"))
 
     seeds.forms = body
-    
-    fs.writeFileSync('dist/js/seeds.js', 'seeds=' + JSON.stringify(seeds) + ';')
-    cb()
+
+    # Get entity types
+    jsonClient.get 'entity_types', (err, res, body) ->
+      if res.statusCode != 200
+        return cb(new Error("Server error"))
+
+      entity_types = body
+
+      # Get properties
+      jsonClient.get 'properties', (err, res, body) ->
+        if res.statusCode != 200
+          return cb(new Error("Server error"))
+
+        properties = body
+
+        # Get units
+        jsonClient.get 'units', (err, res, body) ->
+          if res.statusCode != 200
+            return cb(new Error("Server error"))
+
+          units = body
+          
+          fs.writeFileSync('dist/js/seeds.js', 'seeds=' + JSON.stringify(seeds) + '; entity_types=' + JSON.stringify(entity_types) + '; properties=' + JSON.stringify(properties) + '; units=' + JSON.stringify(units) + ";")
+          cb()
   return
 
 gulp.task 'localization', (cb) ->

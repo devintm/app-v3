@@ -1,6 +1,6 @@
 Page = require "../Page"
 mwaterforms = require 'mwater-forms'
-ResponseModel = require('mwater-common').ResponseModel
+ResponseModel = require('mwater-forms').ResponseModel
 ImagePage = require './ImagePage'
 SiteListPage = require './SiteListPage'
 SiteMapPage = require './SiteMapPage'
@@ -76,6 +76,33 @@ class SurveyPage extends Page
             stickyKey = "stickyStorage:" + @form._id + ":" +@login.user + ":" + key
             @storage.set(stickyKey, JSON.stringify(value))
         }
+        # Allow user to choose an entity
+        selectEntity: (options) =>
+          alert("Not supported. Use mWater Explorer for entities")
+          # SelectEntityPage = require './SelectEntityPage'
+          # @pager.openPage(SelectEntityPage, { 
+          #   title: options.title
+          #   entityType: options.type
+          #   entityFilter: options.filter
+          #   # entityProperties: options.selectProperties
+          #   # mapProperty: options.mapProperty
+          #   selectCallback: options.callback })
+
+        # Gets an entity
+        getEntity: (type, _id, callback) =>
+          alert("Not supported. Use mWater Explorer for entities")
+          callback(null)
+          # # Lookup site
+          # @db[type].findOne { _id: _id }, (entity) =>
+          #   if entity
+          #     callback(entity)
+          #   else
+          #     callback(null)
+          # , @error
+        getProperty: (id) =>
+          return _.findWhere(window.properties, { _id: id })
+        getUnit: (code) =>
+          return _.findWhere(window.units, { code: code })
       }
 
       # Add barcode scanner if available
@@ -169,7 +196,7 @@ class SurveyPage extends Page
 
         @form = form
 
-        @responseModel = new ResponseModel(response, form, @login.user, @login.groups)
+        @responseModel = new ResponseModel(response: response, form: form, user: @login.user, groups: @login.groups)
 
         if @responseModel.canDelete()
           @setupContextMenu [ { glyph: 'remove', text: T("Delete Survey"), click: => @removeResponse() } ]
