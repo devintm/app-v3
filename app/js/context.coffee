@@ -162,34 +162,33 @@ createDb = (login, success) ->
     db = new minimongo.HybridDb(localDb, remoteDb)
 
     # Add collections
-    async.eachSeries collectionNames, (col, callback) =>
-      localDb.addCollection col, =>
-        # Remote Db addCollection is synchronous
-        remoteDb.addCollection(col)
+    for col in collectionNames
+      localDb.addCollection(col)
+      remoteDb.addCollection(col)
+      db.addCollection(col)
 
-        # Hybrid Db addCollection is synchronous
-        db.addCollection(col)
+    # Add entity collections
+    for col in _.pluck(window.entity_types, "code")
+      localDb.addCollection(col)
+      
+       # Override url for entity collections
+      remoteDb.addCollection(col, { url: apiUrl + "entities/#{col}" })
+      db.addCollection(col)
 
-        callback()
-      , callback
-    , (err) =>
-      if err
-        return error(err)
-
-      # Seed local db with startup documents
-      if window.seeds
-        async.eachSeries _.keys(window.seeds), (col, callback) =>
-          async.eachSeries window.seeds[col], (doc, callback2) =>
-            localDb[col].seed doc, =>
-              callback2()
-            , callback2
-          , callback
-        , (err) =>
-          if err
-            return error(err)
-          success(db)
-      else
+    # Seed local db with startup documents
+    if window.seeds
+      async.eachSeries _.keys(window.seeds), (col, callback) =>
+        async.eachSeries window.seeds[col], (doc, callback2) =>
+          localDb[col].seed doc, =>
+            callback2()
+          , callback2
+        , callback
+      , (err) =>
+        if err
+          return error(err)
         success(db)
+    else
+      success(db)
   , error
 
 exports.createContext = (withCtx) ->
