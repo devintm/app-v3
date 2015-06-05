@@ -14,6 +14,9 @@ class SurveyPage extends Page
     # Set default locale
     @formLocale = @localizer.locale
 
+    # Create form context
+    @formCtx = @createFormCtx()
+
     @render()
 
   displayFormView: ->
@@ -47,71 +50,6 @@ class SurveyPage extends Page
       model = new Backbone.Model()
       model.set(_.cloneDeep(@response.data))
 
-      # Create context for forms            
-      ctx = {
-        displayImage: (options) =>
-          @pager.openPage(ImagePage, { id: options.id, onRemove: options.remove, onSetCover: options.setCover })
-        imageManager: @ctx.imageManager
-        imageAcquirer: @ctx.imageAcquirer
-        selectSite: (siteTypes, success) =>
-          @pager.openPage SiteListPage, { filterSiteTypes: siteTypes, onSelect: (source)=> success(source.code) }
-        getSite: (siteCode, success, error) =>
-          @db.sites.findOne { code: siteCode }, (site) =>
-            if site
-              success(site)
-          , error
-        displayMap: (location, setLocation) =>
-          options = {}
-          options.setLocation = setLocation
-          if location?
-            options.initialGeo = { type: 'Point', coordinates: [location.longitude, location.latitude] }
-          @pager.openPage require("./SiteMapPage"), options
-        stickyStorage: {
-          get: (key) =>
-            stickyKey = "stickyStorage:" + @form._id + ":" +@login.user + ":" + key
-            str = @storage.get(key)
-            if str? and str.length > 0 and str != "undefined"
-              return JSON.parse(str)
-          set: (key, value) =>
-            stickyKey = "stickyStorage:" + @form._id + ":" +@login.user + ":" + key
-            @storage.set(stickyKey, JSON.stringify(value))
-        }
-        # Allow user to choose an entity
-        selectEntity: (options) =>
-          alert("Not supported. Use mWater Explorer for entities")
-          # SelectEntityPage = require './SelectEntityPage'
-          # @pager.openPage(SelectEntityPage, { 
-          #   title: options.title
-          #   entityType: options.type
-          #   entityFilter: options.filter
-          #   # entityProperties: options.selectProperties
-          #   # mapProperty: options.mapProperty
-          #   selectCallback: options.callback })
-
-        # Gets an entity
-        getEntity: (type, _id, callback) =>
-          alert("Not supported. Use mWater Explorer for entities")
-          callback(null)
-          # # Lookup site
-          # @db[type].findOne { _id: _id }, (entity) =>
-          #   if entity
-          #     callback(entity)
-          #   else
-          #     callback(null)
-          # , @error
-        getProperty: (id) =>
-          return _.findWhere(window.properties, { _id: id })
-        getUnit: (code) =>
-          return _.findWhere(window.units, { code: code })
-      }
-
-      # Add barcode scanner if available
-      if window.cordova and window.cordova.plugins and window.cordova.plugins.barcodeScanner
-        ctx.scanBarcode = (options) ->
-          window.cordova.plugins.barcodeScanner.scan (result) ->
-            if not result.cancelled
-              options.success(result.text)
-
       # Check schema version
       schema = @form.design._schema or 1
       if schema > mwaterforms.schemaVersion
@@ -123,9 +61,9 @@ class SurveyPage extends Page
         return @pager.closePage()
 
       # Create compiler
-      compiler = new mwaterforms.FormCompiler(model: model, locale: @formLocale, ctx: ctx)
+      compiler = new mwaterforms.FormCompiler(model: model, locale: @formLocale, ctx: @formCtx)
 
-      @formView = compiler.compileForm(@form.design, ctx).render()
+      @formView = compiler.compileForm(@form.design).render()
       
       # Listen to events
       @listenTo @formView, 'change', @save
@@ -196,7 +134,7 @@ class SurveyPage extends Page
 
         @form = form
 
-        @responseModel = new ResponseModel(response: response, form: form, user: @login.user, groups: @login.groups)
+        @responseModel = new ResponseModel(response: response, form: form, user: @login.user, groups: @login.groups, formCtx: @formCtx)
 
         if @responseModel.canDelete()
           @setupContextMenu [ { glyph: 'remove', text: T("Delete Survey"), click: => @removeResponse() } ]
@@ -285,11 +223,17 @@ class SurveyPage extends Page
     @response.data = @formView.save()
     @responseModel.submit()
 
-    @db.responses.upsert @response, =>
-      @returnToSurveyList()
+    # Check for any pending entity creates/updates
+    @responseModel.processEntityOperations @ctx.db, (results) =>
+      # Handle error if present
+      if results.error
+        @ctx.error(results)
 
-      @pager.flash T("Survey completed successfully"), "success"
-    , @error
+      @db.responses.upsert @response, =>
+        @returnToSurveyList()
+
+        @pager.flash T("Survey completed successfully"), "success"
+      , @error
 
   removeResponse: ->
     if @auth.remove("responses", @response) and confirm(T("Permanently delete survey?"))
@@ -298,5 +242,71 @@ class SurveyPage extends Page
         @pager.closePage()
         @pager.flash T("Survey deleted"), "warning"
       , @error
+
+  # Create context for forms            
+  createFormCtx: ->
+    formCtx = {
+      displayImage: (options) =>
+        @pager.openPage(ImagePage, { id: options.id, onRemove: options.remove, onSetCover: options.setCover })
+      imageManager: @ctx.imageManager
+      imageAcquirer: @ctx.imageAcquirer
+      selectSite: (siteTypes, success) =>
+        @pager.openPage SiteListPage, { filterSiteTypes: siteTypes, onSelect: (source)=> success(source.code) }
+      getSite: (siteCode, success, error) =>
+        @db.sites.findOne { code: siteCode }, (site) =>
+          if site
+            success(site)
+        , error
+      displayMap: (location, setLocation) =>
+          options = {}
+          options.setLocation = setLocation
+          if location?
+            options.initialGeo = { type: 'Point', coordinates: [location.longitude, location.latitude] }
+          @pager.openPage require("./SiteMapPage"), options
+      stickyStorage: {
+        get: (key) =>
+          stickyKey = "stickyStorage:" + @form._id + ":" +@login.user + ":" + key
+          str = @storage.get(stickyKey)
+          if str? and str.length > 0
+            return JSON.parse(str)
+        set: (key, value) =>
+          stickyKey = "stickyStorage:" + @form._id + ":" +@login.user + ":" + key
+          @storage.set(stickyKey, JSON.stringify(value))
+      }
+      # Allow user to choose an entity
+      selectEntity: (options) =>
+        alert("Not supported. Use mWater Explorer for entities")
+      #   SelectEntityPage = require './SelectEntityPage'
+      #   @pager.openPage(SelectEntityPage, { 
+      #     title: options.title
+      #     entityType: options.type
+      #     entityFilter: options.filter
+      #     # entityProperties: options.selectProperties
+      #     # mapProperty: options.mapProperty
+      #     selectCallback: options.callback })
+
+      # Gets an entity
+      getEntity: (type, _id, callback) =>
+        # Lookup site
+        @db[type].findOne { _id: _id }, (entity) =>
+          if entity
+            callback(entity)
+          else
+            callback(null)
+        , @error
+      getProperty: (id) =>
+        return _.findWhere(window.properties, { _id: id })
+      getUnit: (code) =>
+        return _.findWhere(window.units, { code: code })
+    }
+
+    # Add barcode scanner if available
+    if window.cordova and window.cordova.plugins and window.cordova.plugins.barcodeScanner
+      formCtx.scanBarcode = (options) ->
+        window.cordova.plugins.barcodeScanner.scan (result) ->
+          if not result.cancelled
+            options.success(result.text)
+
+    return formCtx
 
 module.exports = SurveyPage
