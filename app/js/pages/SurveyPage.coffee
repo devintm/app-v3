@@ -223,6 +223,14 @@ class SurveyPage extends Page
     @response.data = @formView.save()
     @responseModel.submit()
 
+    # HACK FOR https://github.com/mWater/mwater-server/issues/102
+    # TODO REMOVE
+    if @response.pendingEntityCreates
+      if @response.pendingEntityCreates[0]
+        if @response.pendingEntityCreates[0].entityType == ""
+          @response.pendingEntityCreates = []
+    # END REMOVE
+
     # Check for any pending entity creates/updates
     @responseModel.processEntityOperations @ctx.db, (results) =>
       # Handle error if present
