@@ -189,8 +189,8 @@ class SettingsPage extends Page
 
 
   testBarcodeScanner: ->
-    if cordova and cordova.plugins and cordova.plugins.barcodeScanner
-      cordova.plugins.barcodeScanner.scan(
+    if window.cordova and window.cordova.plugins and window.cordova.plugins.barcodeScanner
+      window.cordova.plugins.barcodeScanner.scan(
         (result) ->
             alert("We got a barcode\n" +
                   "Result: " + result.text + "\n" +
