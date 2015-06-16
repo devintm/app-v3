@@ -287,6 +287,10 @@ exports.createLoginContext = createLoginContext = (login, success) ->
     dataSync = new syncModule.DataSync(db, siteCodesManager)
     imageSync = new syncModule.ImageSync(imageManager)
 
+    # Ensure that login groups are present (https://github.com/mWater/app-v3/issues/465)
+    if not login.groups
+      login.groups = []
+      
     # Start synchronizing
     dataSync.start(15*1000)  # Every 15 seconds
     imageSync.start(30*1000)  # Every 30 seconds
