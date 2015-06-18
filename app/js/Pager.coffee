@@ -24,24 +24,14 @@ class Pager extends Backbone.View
       @contextMenu.$el.children().detach()
       @contextMenu.$el.append(_.last(@stack).page.getContextMenu().el)
 
-    # Set flag that not listening to backbutton (should only listen when multiple pages)
-    @listeningToBackbutton = false
-
-  updateListeningToBackButton: ->
-    if @multiplePages()
-      if not @listeningToBackbutton
-        # Listen to backbutton
-        document.addEventListener "backbutton", @handleBackButton, false
-        @listeningToBackbutton = true
-
-    else 
-      if @listeningToBackbutton
-        # Unlisten to backbutton
-        document.removeEventListener "backbutton", @handleBackButton, false
-        @listeningToBackbutton = false
-
-  handleBackButton: =>
-    @closePage()
+    # Listen to backbutton
+    document.addEventListener "backbutton", =>
+      if @multiplePages()
+        @closePage()
+      else if navigator.app and navigator.app.exitApp
+        # Exit app
+        navigator.app.exitApp()
+    , false
 
   setContext: (ctx) ->
     # Context contains pager
@@ -82,7 +72,6 @@ class Pager extends Backbone.View
 
     console.log "Opened page #{pageClass.name} (" + JSON.stringify(options) + ")"
 
-    @updateListeningToBackButton()
     # Indicate page change
     @trigger 'change'
 
@@ -114,9 +103,7 @@ class Pager extends Backbone.View
 
       # Restore scroll position
       $(window).scrollTop(_.last(@stack).scrollPos)
-    
-    @updateListeningToBackButton()
-  
+      
     # Indicate page change
     @trigger 'change'
 
